@@ -1,0 +1,108 @@
+public class MyTester {
+    public static void main(String[] args) {
+        int i = 14;
+        int j = 20;
+        int result;
+
+        int k = j / i;
+        result = k * 7 % 4;
+        System.out.println(result);
+    }
+}
+//answer
+3
+//split
+public class MyTester {
+    public static void main(String[] args) {
+        int myYear = 2012;
+        String myText = new String("Hello world");
+        int result = 0;
+
+        if (myText.length() > 5) {
+            result = 1;
+            if (myText.length() < 30 && myYear >= 2018) {
+                result += 5;
+            }
+        } else {
+            if (myYear >= 2000) {
+                result += 10;
+            } else {
+                result += 100;
+            }
+        }
+
+        System.out.println(result);
+    }
+}
+//answer
+1
+//split
+public class MyTester {
+    public static void main(String[] args) {
+        int i = 2;
+        int result = 0;
+        while (i < 4) {
+            result += i;
+            i++;
+        }
+
+        System.out.println(result);
+    }
+}
+//answer
+5
+//split
+public class MyTester {
+    public static void main(String[] args) {
+        int result = 0;
+
+        for (int i = 5; i > 0; i--) {
+            result += i;
+        }
+
+        System.out.println(result);
+    }
+}
+//answer
+15
+//split
+public class MyTester {
+    public static void main(String[] args) {
+        int[] data = new int[5];
+
+        for (int i = 0; i < 5; i++) {
+            data[i] = i * i;
+        }
+
+        data[2] += 3;
+        System.out.println(data[2]);
+
+    }
+}
+//answer
+7
+//split
+public class MyTester {
+    public static void main(String[] args) {
+        Rectangle myBox = new Rectangle(5, 3);
+        myBox.magnify(3);
+        result = myBox.getHeight() + myBox.getWidth();
+        System.out.println(result);
+    }
+}
+
+public class Rectangle {
+    private double height;
+    private double width;
+    public Rectangle(double height, double width) {
+        this.height = height;
+        this.width = width;
+    }
+    public void magnify(int ratio) {
+        height = height * ratio;
+        width = width * ratio;
+    }
+}
+//answer
+24
+
