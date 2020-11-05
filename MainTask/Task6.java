@@ -1,7 +1,7 @@
 /**
  * author: Suraj Maharjan
  * topics: Classes and objects
- * subtopics: Initializing an object of the Class to call the instance methods
+ * subtopics: Create class, Class attributes, Class Methods, Class Constructors, Create object
  * goalDescription: This program checks a user's bank account balance under if else statements and based on the conditions defined in the if else statements it calls the instance method of the class and executes the operation as defined in the instance methods. 
  * source: N/A
  * input: NA
@@ -11,8 +11,10 @@
 public class BankAccount {
 
     /**
-    * logical_step_1: Declaring a private double/float variable and assign value along with declaring a constructor for the class BankAccount.
-    * logical_step_details: Declares a double variable assigning 0 to it and then create a constructor for the class BankAccount. Declaring a variable as private so as to access only within its own class. double, 0. The use of a class constructor is to initialize objects. The constructor is called when an object of a class is created.
+    * logical_step_1: Declares a private variable balance of double type and assign value along with declaring a constructor for the class BankAccount.
+    * logical_step_details: Declares a double variable assigning 0 to it and then create a constructor for the class BankAccount.
+    * Declaring a variable as private so as to access only within its own class. double, 0. The use of a class constructor is to initialize objects.
+    * The constructor is called when an object of a class is created.
     * question_1: What does the following block of code do?
     * answer_1: Declares a double variable assigning 0 to it and then create a constructor for the class BankAccount.
     * question_2: Why is the variable declared as private?
@@ -101,13 +103,12 @@ public class BankAccount {
         * question_2: What is returned from the method getBalance?
         * answer_2: The method getBalance returns the final balance of the user's bank account.
         */
-        double result = myBankAccount.getBalance();
-
         /**
-        * stm_comment: Prints the value of the result.
-        * question_1: What value does the result contain?
-        * answer_1: The result contains the final balance which is 8.0.
+        * stm_comment:  myBankAccount.getBalance() is used to access the value of property balance.
+        * question_1: What is myBankAccount.getBalance() used for?
+        * answer_1: myBankAccount.getBalance() is used to access the value of property balance.
         */
+        double result = myBankAccount.getBalance();
         System.out.println(result);
     }
 }
