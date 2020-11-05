@@ -1,44 +1,52 @@
 /**
  * author:Nisrine Ait Khayi
- * topics: Mathematics
+ * topics: While loop
  * subtopics: Find the first divisor of an integer number
- * goalDescription : This program computes the first divisor of a given integer number
+ * goalDescription : This program demonstrates using while loop until certain conditon is met.
  * source: N/A
  * output: 5
 */
 public class Tester {
     public static void main(String[] args) {
         /** 
-         * logical_step_1: specify an integer number and inialize its divisor to 2.
-         * logical_steps_details: Declare two integer variables num and divisor  and initialize them to 25 and 2, respectively.
+         * logical_step_1: Declares the variables num and integer and assigns values.
+         * logical_steps_details: Declare two integer variables num and divisor . The value of variable num is  initialize to 25. The value of variable
+	 * divisor is intialized to 2.
          * question_1: What does the following code block do?
-         * answer_1: Specifies the type and the inialized values of the intger number and its adivisor.
+         * answer_1:  Declares the variables num and integer and assigns values.
+	 * question_2: What is the value of num?
+         * answer_2:  25
+	 * question_3: What is the value of divisor?
+         * answer_2:  2
          */
         int num = 25;
         int divisor = 2;
-         /**
-        * logical_step_2: Use a while loop to find the first advisor of the given integer number num.
-        * logical_step_details: Use a while loop to find the first advisor of the given integer number num starting from the value of 2 and increment it until finding the first divisor.
+         
+	/**
+        * logical_step_2: Executes the while loop  and incrment the value of divisor by 1 until the conditon num modulus divisor is 0 is met.
+        * logical_step_details: Executes the while loop  and incrment the value of divisor by 1 until the conditon num modulus divisor is 0 is met.
+	* 25 % 2 is not equal to 0. So, thee loop executes and the value of divisior is 3 when while loop executes first time. The value of divisor is 
+	* 5 when the while loop condtion satisfy. The program prints 5.
         * question_1: What does the following code block do?
-        * answer_1: Use a while loop to find the first advisor of the intger number num.        
+        * answer_1: Executes the while loop  and incrment the value of divisor by 1 until the conditon num modulus divisor is 0 is met.
+	* question_2: Is 25 % 2 is qual to 0?
+        * answer_2: No
+	* question_3:  What is the value of divisor when while loop executes for firs time?
+        * answer_3: 3
+        * question_4:  What is the value of divisor when the while loop conditon satisfy?
+        * answer_4: the value of divisor is 5.
+	* question_5: What is the value printed?
+        * answer_4: 5.
         */
         
         /** 
-        * stm_comment: This the while loop that finds the first divisor of the integer num. 
-        * question_1: When does the loop stops?
-        * answer_1: when the reminder of dividing num by divisor is null.        
-        * question_3: How many times does the while loop run?
-        * answer_3: The while loop runs for a number of iterations until the reminder of dividing num by divisor is null.
+        * stm_comment: While loop execute a block of code as long as a specified condition is reached.
+        * question_1: What does while loop do?
+        * answer_1: While loop execute a block of code as long as a specified condition is reached.  
         */
         while (num % divisor != 0) {
             divisor += 1;
         }
-        
-        /**
-		* stm_comment: The next statement is needed in order to print the value of the first divisor of the integer num.
-		* question_1: What is the printed value?
-		* answer_1: The printed values is 5.
-		*/
         System.out.println(divisor);
     }
 }
