@@ -1,8 +1,9 @@
 /**
  * author: Suraj Maharjan
  * topics: Classes and objects
- * subtopics: Create class, Class attributes, Class Methods, Class Constructors, Create object
- * goalDescription: This program checks a user's bank account balance under if else statements and based on the conditions defined in the if else statements it calls the instance method of the class and executes the operation as defined in the instance methods. 
+ * subtopics: Create class,class attributes,class Methods, constructors, Create object
+ * goalDescription: This program checks a user's bank account balance and allows a user to withdraw or deposit money
+ * according to some predefined criteria.
  * source: N/A
  * input: NA
  * output: 8.0
@@ -11,52 +12,99 @@
 public class BankAccount {
 
     /**
-    * logical_step_1: Declares a private variable balance of double type and assign value along with declaring a constructor for the class BankAccount.
-    * logical_step_details: Declares a double variable assigning 0 to it and then create a constructor for the class BankAccount.
-    * Declaring a variable as private so as to access only within its own class. double, 0. The use of a class constructor is to initialize objects.
-    * The constructor is called when an object of a class is created.
-    * question_1: What does the following block of code do?
-    * answer_1: Declares a double variable assigning 0 to it and then create a constructor for the class BankAccount.
-    * question_2: Why is the variable declared as private?
-    * answer_2: Declaring a variable as private so as to access only within its own class.
-    * question_3: What type of variable is balance and what is its value? 
-    * answer_3: double, 0
-    * question_4: What is the use of a class contructor?
-    * answer_4: The use of a class constructor is to initialize objects. 
-    * question_5: When is the constructor called?
-    * answer_5: The constructor is called when an object of a class is created.
-    */
-    
+     * logical_step_1: Specify the intiial value bank balance
+     * logical_step_details: Declare a private double variable balance and assign it's value to 0..
+     * question_1: What does the following block of code do?
+     * answer_1: Specify the intiial value bank balance
+     * question_2: What is the datatype of the variable balance?
+     * answer_2: balance is a double
+     * question_3: What is the value of resut
+     * answer_3:  0
+     * question_4: what is the access modifier for the variable balance
+     * answer_4: balance has a private variabe*
+
+     */
+
+
+    /**
+     *  stm_comment: here, the variable balance is declared as private to access of the variable within the class.
+     *  question_1:Please explain what the variable balance is declared as a private variable
+     *  answer_1: the variable balance is declare as private to access of the variable within the class.
+     * */
+
     private double balance = 0;
-    
+
+    /**
+     * logical_step_2: Define a constructor for public class BankbAccount to initialse the initial balance of the bank account
+     * logical_step_details: Using a default constructor set the initial bank balance in the variable initialBalance. initialBalance is
+     * set to the value that is passed during the constructor call
+     * question_1: What does the following block of code do?
+     * answer_1: Define a constructor for public class BankbAccount to initialse the initial balance of the bank account
+     * question_2: What is the datatype and value of the variable initialBalance?
+     * answer_2: initialBalance is a double with value 38.0
+     * question_3: Can the variable balance be accessed directly?
+     * answer_3:  No, balance is a private variable of the class BankAccount and cannot be accessed directly without class
+     * question_4: what is the operator used to access the variable balance
+     * answer_4: 'this' operator is used to access the variable balance
+     */
+
+
+    /**
+     *  stm_comment: the  constructor BankAccount initialises the value of bank balance by passing the parameter initialBalance
+     *  in the constructor. As the balance varible is private and cannot be accessed directly outside the class, the value of
+     *  balance is set by passing a parameter in the constructor specifying the balance. 'this' pointer is used to indicate
+     *  that the variable balance is a variable of the class BankAccount.
+     *  question_1:Please explain what the following constructor does?
+     *  answer_1: the  constructor BankAccount initialises the value of bank balance by passing the parameter initialBalance
+     *  in the constructor. As the balance varible is private and cannot be accessed directly outside the class, the value of
+     *  balance is set by passing a parameter in the constructor specifying the balance. 'this' operator is used to indicate
+     *  that the variable balance is a variable of the class BankAccount.
+     * */
     public BankAccount(double initialBalance) {
         this.balance = initialBalance;
     }
 
     /**
-    * logical_step_2: Defines public methods deposit, withdraw and getBalance.
-    * logical_step_details: Definines public methods deposit, withdraw and getBalance and all of them have their method declaration and the method body. public method is defined by adding public in front of the method. public method can only be accessed with the help of objects of the class. double. The deposit method adds the amount to the current bank account balance of the user. The withdraw method deducts the amount from the current bank account balance of the user. The method getBalance is defines as double instead of void because this means that the return value from this method is a double. The method getBalance returns the current balance of the user.
-    * question_1: What does the following block of code do?
-    * answer_1: Definines public methods deposit, withdraw and getBalance and all of them have their method declaration and the method body.
-    * question_2: What is public method?
-    * answer_2: public method is defined by adding public in front of the method.
-    * question_3: How can public method be accessed?
-    * answer_3: public method can only be accessed with the help of objects of the class.
-    * question_4: What type of variable is amount?
-    * answer_4: double
-    * question_5: What does the deposit method execute?
-    * answer_5: The deposit method adds the amount to the current bank account balance of the user.
-    * question_6: What does the withdraw method execute?
-    * answer_6: The withdraw method deducts the amount from the current bank account balance of the user.
-    * question_7: Why is the method getBalance defined as double instead of void?
-    * answer_7: The method getBalance is defines as double instead of void because this means that the return value from this method is a double.
-    * question_8: What does the getBalance method return?
-    * answer_8: The method getBalance returns the current balance of the user.
-    */
+     * logical_step_3: Defines methods for financial transaction in the Bank account:
+     * The deposit method helps deposit the specified amount to the current bank account balance of the user
+     * The withdraw method deducts the specified amount from the current bank account balance of the user.
+     * and getBalance specify the current value of balance in the given bank account
+     * logical_step_details: Definine public methods deposit, withdraw and getBalance.Public method deposit will add the
+     * specified amount to the bank balance. Public method withdrow will substract the specified amount from the bank balance.
+     * the public method getBalance will return the value of the current bank balance.
+     *  question_1: What does the following block of code do?
+     * answer_1: Defines methods for financial transaction in the Bank account:
+     * The deposit method helps deposit the specified amount to the current bank account balance of the user
+     * The withdraw method deducts the specified amount from the current bank account balance of the user.
+     * and getBalance displays the current balance in the given bank account
+     * question_2: What does the deposit method do?
+     * answer_3: The deposit method adds the given amount to the current bank account balance of the user.
+     * question_4: What does the withdraw method execute?
+     * answer_4: The withdraw method deducts the amount from the current bank account balance of the user.
+     * question_5: What is the return type of the method deposit?
+     * answer_5: the method deposit returns void
+     * question_6: What is the return type of the function getBalance?
+     * answer_6: The method returns a double value.
+     * question_7: What is the datatype parameter passed for the function withdraw?
+     * answer_7: double
+     * question_7: What is the  access modifier of the method deposit?
+     * answer_7: public
+     */
+
+    /**
+     *  stm_comment:  public methods of a class can be directly access outside the class as well. A class method can be made public if we prepend the
+     *  keyword public in front of the return type of the function name. In the method deposit by adding the keyword public,
+     *  in front of 'void deposit' , makes it accessible to other method outside the class.
+     *  question_1:Please explain what the following the keyword public does in the context of the method deposit.
+     *  answer_1: ublic methods of a class can be directly access outside the class as well. A class method can be made public if we prepend the
+     *  keyword public in front of the return type of the function name. In the method deposit by adding the keyword public,
+     *  in front of 'void deposit' , makes it accessible to other method outside the class.
+     * */
+
     public void deposit(double amount) {
         this.balance += amount;
     }
-    
+
     public void withdraw(double amount) {
         balance -= amount;
     }
@@ -64,29 +112,43 @@ public class BankAccount {
     public double getBalance() {
         return balance;
     }
- 
+
     public static void main(String[] args) {
-        
+
         /**
-        * logical_step_3: Create an object "myBankAccount" of the class BankAccount.
-        * logical_step_details: The purpose of the myBankAccount is it helps to call the public methods of the class BankAccount and also calls the constructor of BankAccount. The parameter is passed when creating an object of the class BankAccount because this also calls the constructor and this parameter is sent to the constructor.
-        * question_1: What is the purpose of myBankAccount?
-        * answer_1: The purpose of the myBankAccount is it helps to call the public methods of the class BankAccount and also calls the constructor of BankAccount.
-        * question_2: Why is there a parameter passed when creating an object of the class BankAccount?
-        * answer_2: The parameter is passed when creating an object of the class BankAccount because this also calls the constructor and this parameter is sent to the constructor.
-        */
+         * logical_step_4: Create an instance "myBankAccount" of the class BankAccount.
+         * logical_step_details: The instance/ object of class BankAccount myBankAccount helps to access the public methods of the class BankAccount and
+         * also to call the constructor of BankAccount. .
+         * question_1: What is the purpose of myBankAccount?
+         * answer_1: The purpose of the myBankAccount is it helps to call the public methods of the class BankAccount and also calls the constructor of BankAccount.
+         * question_2: Why is there a parameter passed when creating an object of the class BankAccount?
+         * answer_2: The parameter is passed when creating an object of the class BankAccount because this also calls the constructor and this parameter is sent to the constructor.
+         */
+
+        /**
+         *  stm_comment: The parameter initialBalance, is passed when instanciating the class object, myBankAccount of the class BankAccount
+         *  During the instantiation the constructor of the class is also called and through parameter within the paranthesis of
+         *  the constructor the initial balance is set.
+         *  question_1:Please explain what the following class instantiation does
+         *  answer_1: The parameter initialBalance, is passed when instanciating the class object, myBankAccount of the class BankAccount
+         *  During the instantiation the constructor of the class is also called and through parameter within the paranthesis of
+         *  the constructor the initial balance is set.
+         * */
         BankAccount myBankAccount = new BankAccount(38.0);
-        
+
         /**
-        * logical_step_4: Checks and withdraws if the balance is greater or else deposits the amount to the bank account. 
-        * logical_step_details: Bank balance of the user is checked under the if-else-if conditions and executes the required operations when a condition is satisfied. The else-if condition or statement is satisfied because myBankAccount value is 38.0 which is greater than 30 which satisfies the condition. The method withdraw is called when either if or else-if condition is satisfied and when both of them are not satisfied then else works which executes and calls the deposit method.
-        * question_1: What does the following block of code do?
-        * answer_1: Bank balance of the user is checked under the if-else-if conditions and executes the required operations when a condition is satisfied.
-        * question_2: Which condition or statement is satisfied here?
-        * answer_2: The else-if condition or statement is satisfied because myBankAccount value is 38.0 which is greater than 30 which satisfies the condition.
-        * question_3: When does the methods withdraw and deposit is called?
-        * answer_3: The method withdraw is called when either if or else-if condition is satisfied and when both of them are not satisfied then else works which executes and calls the deposit method.
-        */
+         * logical_step_5: Check if the balance is greather than 50, if true else deposits 50 to the bank account. Also,
+         * check if the bank balance is greater then 30. If true, deposit 30 to the bank balance.If flase, deposit 30 to the bank balance
+         * logical_step_details: Bank balance of the user is checked under the if-else-if conditions .
+         * According to the condition satisfied a transaction is made by either deposit or withdraw method of the class BankAccount.
+         * question_1: What does the following block of code do?
+         * answer_1: check if the balance is greather than 50, if true else deposits 50 to the bank account. Also,
+         * check if the bank balance is greater then 30. If true, deposit 30 to the bank balance.If flase, deposit 30 to the bank balance
+         * question_2: Which condition if, else if or else condition is satisfied in the code below
+         * answer_2: The else-if condition or statement is satisfied because myBankAccount's value is 38.0 which is greater than 30.
+         * question_3: When is the method deposit is called?
+         * answer_3: The method deposit is called if the bank balance is less than or equal to 30.
+         */
         if (myBankAccount.getBalance() > 50) {
             myBankAccount.withdraw(50);
         } else if (myBankAccount.getBalance() > 30) {
@@ -94,20 +156,23 @@ public class BankAccount {
         } else {
             myBankAccount.deposit(30);
         }
-        
+
         /**
-        * logical_step_5: Declaring a double variable that is assigned the balance of the bank account.
-        * logical_step_details: Declares a double variable result that calls the public method "getBalance" with the help of the class object "myBankAccount". The method getBalance returns the final balance of the user's bank account.
-        * question_1: What does the following line of code do?
-        * answer_1: Declares a double variable result that calls the public method "getBalance" with the help of the class object "myBankAccount".
-        * question_2: What is returned from the method getBalance?
-        * answer_2: The method getBalance returns the final balance of the user's bank account.
-        */
+         * logical_step_6: Display the final balance after the transaction
+         * logical_step_details: Declares a double variable result that calls the public method "getBalance" with the help of the class object "myBankAccount".
+         * The method getBalance returns the final balance of the user's bank account.
+         * question_1: What does the following block of code do?
+         * answer_1: Declares a double variable result that calls the public method "getBalance" with the help of the class object "myBankAccount".
+         * question_2: What is the output of the following block of code
+         *  answer_2: 8.0
+         *  question_3: what does the function getBalance return?
+         *  answer_3: getBalance returns the value of the current bank balance
+         */
         /**
-        * stm_comment:  myBankAccount.getBalance() is used to access the value of property balance.
-        * question_1: What is myBankAccount.getBalance() used for?
-        * answer_1: myBankAccount.getBalance() is used to access the value of property balance.
-        */
+         * stm_comment:  myBankAccount.getBalance() is used to access the value of property balance.
+         * question_1: What is myBankAccount.getBalance() used for?
+         * answer_1: myBankAccount.getBalance() is used to access the value of property balance.
+         */
         double result = myBankAccount.getBalance();
         System.out.println(result);
     }

@@ -13,7 +13,7 @@ public class Tester {
     public static void main(String[] args) {
         /**
          * logical_step_1: Specify the initial value of result.
-         * logical_step_details: Declares an integer variable result and result and assigns it's values to be 2.
+         * logical_step_details: Declares an integer variable result  and assigns it's values to be 2.
          * question_1: What does the following block of code do?
          * answer_1: Specify the initial value of result.
          * question_2: What the data type?
