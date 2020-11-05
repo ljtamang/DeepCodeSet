@@ -6,7 +6,7 @@
     numbers. 
  * source: N/A
  * input: N/A
- * output: 5
+ * output: 5.0
  */
 
 
@@ -33,7 +33,7 @@ public class Average {
         
         */
 
-        int[] number = {4, 2, 4, 5, 10};
+        int[] numbers = {4, 2, 4, 5, 10};
 
 
         /**
@@ -78,7 +78,7 @@ public class Average {
         */
 
 
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i < numbers.length; i++) {
 
          /**
          *  stm_comment: each of i-th element of the array number is accessed and added to the variable sum.
@@ -89,7 +89,7 @@ public class Average {
          *  */
 
 
-            sum += array[i];
+            sum += numbers[i];
             counter++;
         }
 
