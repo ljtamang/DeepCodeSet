@@ -5,7 +5,7 @@
  * goalDescription: This program demonstrates the use of operator precedence. IT perform multiplication and division operation based on the precedence of operators.
  * source: N/A
  * input: N/A 
- * output: 0
+ * output: 1
 */
 
 
