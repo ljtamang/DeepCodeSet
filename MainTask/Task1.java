@@ -1,11 +1,11 @@
 /**
  * author: Jeevan Chapagain
- * topics: 
- * subtopics: 
- * goalDescription: 
+ * topics: Operator precedence
+ * subtopics: multipilcation, modolus operation
+ * goalDescription: This program demonstrates the use of operator precedence. IT perform multiplication and division operation based on the precedence of operators.
  * source: N/A
  * input: N/A 
- * output: 0
+ * output: 1
 */
 
 

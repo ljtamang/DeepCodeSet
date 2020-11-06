@@ -2,8 +2,7 @@
  * author: Rabin Banjade
  * topics: Arrays
  * subtopics: Array Initialization, Array Size 
- * goalDescription: This program demonstrates the use of Arrays. In this program we use arrays to find the average of 
-    numbers. 
+ * goalDescription: This program demonstrates the use of Arrays. In this program we use arrays to find the average of numbers. 
  * source: N/A
  * input: N/A
  * output: 5.0
@@ -92,18 +91,8 @@ public class Average {
         * answer_3: The value of average is 12.5.
         */
 
-
         double average = sum / counter;
-
-        /**
-         * logical_step_5: Dislay the average of numbers in an array.
-         * logical_step_details: Display the value of average of elements of array numbers
-         * question_1: What does the following block of code do?
-         * answer_1: Dislay the value of variable average.
-         */
-
-
-
+        
         System.out.println(average);
     }
 }
