@@ -37,32 +37,19 @@ public class Average {
 
 
         /**
-        * logical_step_2: Initialize the variable called sum to store the value of sum of numbers in an array.
-        * logical_step_details: Initialize the variable sum with value zero to store the sum of numbers in the array.
+        * logical_step_2: Initialize the variable called sum to store the value of sum of numbers in an array and variable counter to count the number of elements of array.
+        * logical_step_details: Initialize the variable sum and integer variable count with value zero to store the sum of numbers in the array.
         * question_1: What does the following code block do?
-        * answer_1: Initializes a variable called sum to store the sum of various numbers in the array.
+        * answer_1: Initializes a variable called sum to store the sum of all numbers in the array and variable count to count the number of elements of array.
         * question_2: What is the data type of the variable sum?
         * answer_2: The datatype of the variable sum is double.
+        * question_3: What is the data type of variable counter?
+        * answer_3: The data type of variable counter is integer
 
         */
 
 
         double sum = 0;
-        
-
-
-        /**
-        * logical_step_3: Initialize the variable called counter to count the number of integers in an array.
-        * logical_step_details: Initialize the variable counter to count the number of integers in the variable number with zero.
-        * question_1: What does the following code block do?
-        * answer_1: Initializes a variable called counter to count the number of elements of an array. It is initialized to zero initially.
-        * question_2: What is the data type of the variable count?
-        * answer_2: The datatype of the variable count is integer.
-        * question_3: What is counter variable initialized to?
-        * answer_3: Counter variabe is initialized to value zero.
-        */
-
-
         int counter = 0;
 
 
