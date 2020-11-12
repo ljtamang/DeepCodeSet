@@ -14,12 +14,12 @@ public class Average {
     public static void main(String[] args) {
 
         /**
-        * logical_step_1:Initialize an collection integers whose average is to be calculated.
+        * logical_step_1:Initialize a collection of integers whose average is to be calculated.
         * logical_step_details: Initialize an array called numbers with integers that you want to calculate the average of.
         * question_1: What does the following code block do?
-        * answer_1: Initialize an collection integers whose average is to be calculated.
+        * answer_1: Initialize a collection of integers whose average is to be calculated.
         * question_2: What is the data type of the variable numbers?
-        * answer_2: The datatype of the variable numbers is interger array.
+        * answer_2: The data-type of the variable numbers is integer array.
         * question_3 : What are the values declared in array variable?
         * answer_3: The values declared in array numbers are: 4,2,4,5,10.
         */
@@ -60,8 +60,8 @@ public class Average {
         * answer_2: the for loop executes 5 times.
         * question_3: What is the value of numbers.length?
         * answer_3: the value of numbers.length is 5.
-         * question_3: What is the value of numbers[0]?
-         * answer_3: the value of numbers[0] is 4.
+         * question_4: What is the value of numbers[0]?
+         * answer_4: the value of numbers[0] is 4.
         */
 
 
