@@ -14,10 +14,10 @@ public class Average {
     public static void main(String[] args) {
 
         /**
-        * logical_step_1: Initialize an array called numbers with integers that you want to calculate average of.
-        * logical_step_details: Initialize an array variable with integers to find the average.
+        * logical_step_1:Initialize an collection integers whose average is to be calculated.
+        * logical_step_details: Initialize an array called numbers with integers that you want to calculate the average of.
         * question_1: What does the following code block do?
-        * answer_1: Initializes an array called numbers which consists of integers whose average is to be calculated.
+        * answer_1: Initialize an collection integers whose average is to be calculated.
         * question_2: What is the data type of the variable numbers?
         * answer_2: The datatype of the variable numbers is interger array.
         * question_3 : What are the values declared in array variable?
@@ -26,9 +26,10 @@ public class Average {
 
 
         /**
-        * stm_comment: Initialize an integer array called numbers with integers that you want to calculate average of.
+        * stm_comment: An array initializer is written as a comma-separated list of expressions, enclosed by braces { and }.In the code below
+         * the the values of integer array numbers is specified using array initializer
         * question_1: What does the following statement do?
-        * answer_1: Initializes an integer array called numbers which consists of integers whose average is to be calculated. The array numbers consists of values 4,2,4,5,10.
+        * answer_1: the the values of integer array numbers is specified using array initializer
         
         */
 
@@ -44,7 +45,6 @@ public class Average {
         * answer_2: The datatype of the variable sum is double.
         * question_3: What is the data type of variable counter?
         * answer_3: The data type of variable counter is integer
-
         */
 
 
@@ -53,24 +53,26 @@ public class Average {
 
 
         /**
-        * logical_step_3: Iterate through each element of an array and calculate the sum of each elements of array. Also, increase the value of counter which counts the values.
-        * logical_step_details: Iterate over the index of array from 0 to length of array and add each elements.
+        * logical_step_3: Iterate through each element of an array to calculate the sum of each elements of array numbers.
         * question_1: What does the following code block do?
-        * answer_1: Iterates over each elements of an array from index 0 to length of array and stores the sum in variable sum. 
-        * question_2: What does the statement array.length do?
-        * answer_2: Returns the length of the array numbers.
-        * question_3: What does '++' do?
-        * answer_3: Increases the value of count by 1.
+        * answer_1: Iterate through each element of an array to calculate the sum of each elements of array numbers.
+        * question_2: How many times does the for-loop execute.
+        * answer_2: the for loop executes 5 times.
+        * question_3: What is the value of numbers.length?
+        * answer_3: the value of numbers.length is 5.
+         * question_3: What is the value of numbers[0]?
+         * answer_3: the value of numbers[0] is 4.
         */
 
 
         for (int i = 0; i < numbers.length; i++) {
 
          /**
-         *  stm_comment: each of i-th element of the array number is accessed and added to the variable sum.
+         *  stm_comment: each of i-th element of the array number is accessed using index operator [] and added to the variable sum.
          *  The value of i ranges from 0 to length of the array, in our case 5.
          *  question_1: Please explain what does the following line of code do?
-         *  answer_1: Accesses the i-th element of array and adds it to the variable sum, which represents the sum of all the numbers of an array.
+         *  answer_1: each of i-th element of the array number is accessed using index operator [] and added to the variable sum.
+          *  The value of i ranges from 0 to length of the array, in our case 5.
          *  
          *  */
 
@@ -81,10 +83,10 @@ public class Average {
 
 
         /**
-        * logical_step_4: Declare a double type variable named average which stores the value of sum divided by number of elements of array. 
+        * logical_step_4: Declare a double variable to compute and store the average of numbers.Display the value of average
         * logical_step_details: Variable average stores the value of average of all the elements of array numbers. 
         * question_1: What does the following code block do?
-        * answer_1: The code divides the sum with counter and stores the result in variable called average. 
+        * answer_1:  Declare a double variable to compute and store the average of numbers.Display the value of average.
         * question_2: What is the data type of variable average?
         * answer_2: The datatype of the variable average is double.
         * question_3: What is the value of average?
