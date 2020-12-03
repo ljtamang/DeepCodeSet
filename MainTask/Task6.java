@@ -11,48 +11,44 @@
 public class BankAccount {
 
     /**
-     * logical_step_1: Specify the initial value bank balance
-     * logical_step_details: Declare a private double variable balance and assign it's value to 0..
+     * logical_step_1: Declare a variable called balance that stores the balance amount in the bank account. 
+     * logical_step_details: Declare a variable called balance that stores the balance amount in the bank account. 
+     * The balance amount is initialized to 0.
      * question_1: What does the following block of code do?
-     * answer_1: Specify the initial value bank balance
-     * question_2: What is the datatype of the variable balance?
-     * answer_2: the data type of the variable balance is double
-     * question_3: What is the value of balance?
-     * answer_3:  0
+     * answer_1: Declare a variable called balance that stores the balance amount in the bank account. 
+     * question_2:To what value is the balance amount initalized?
+     * answer_2:  The balance amount is intialized to 0
      */
-
-    /**
-     *  stm_comment: The variable balance is declared as private to restrict access of the variable within the class.
-     *  question_1:Please explain what the variable balance is declared as a private variable
-     *  answer_1: the variable balance is declared as private to restric the access of the variable within the class.
-     * */
 
     private double balance = 0;
 
     /**
-     * logical_step_2: Define a constructor for public class BankAccount to initialise the balance of the bank account
-     * logical_step_details: Using a default constructor set the initial bank balance in the variable initialBalance. initialBalance is
-     * set to the value that is passed during the constructor call
+     * logical_step_2:  Defines a constructor  method which is used to initialize objects.
+     * logical_step_details: Defines a constructor  method which is used to initialize objects.
+     * The constructor’s input parameter initialBalance  is used to initialize the value of balance attribute.
      * question_1: What does the following block of code do?
-     * answer_1: Define a constructor for public class BankbAccount to initialise the  balance of the bank account
-     * question_2: What is the datatype and value of the variable initialBalance?
+     * answer_1: Defines a constructor  method which is used to initialize objects.
+     * question_2: What is constructor’s input parameter initialBalance used for?
+     * answer_2: The constructor’s input parameter initialBalance  is used to initialize the value of balance attribute.
      */
     public BankAccount(double initialBalance) {
         this.balance = initialBalance;
     }
 
     /**
-     * logical_step_3: Defines methods to peform deposit, withdwarl and access balance in the bank account.
-     * logical_step_details: Define public methods deposit, withdraw and getBalance.Public method deposit will add the
-     * specified amount to the bank balance. Public method withdraw will subtract the specified amount from the bank balance.
-     * the public method getBalance will return the value of the current bank balance.
+     * logical_step_3: Create method deposit, withdraw and getBalance. 
+     * logical_step_details: Create method deposit, withdraw and getBalance. 
+     * method deposit takes amount and increase the value of balance by the value of the amount.
+     * method withdraw takes amount as input and decreases the value of balance by the value of the amount.
+     * method getBalance returns the balance amount in the bank account. 
      * question_1: What does the following block of code do?
-     * answer_1:  Defines methods to peform deposit, withdwarl and access balance in the bank account.
+     * answer_1:  Create method deposit, withdraw and getBalance. 
      * question_2: What does the deposit method do?
-     * answer_3: The deposit method adds the given amount to the current bank account balance of the user.
-     * question_4: What does the withdraw method do?
-     * answer_4: The withdraw method deducts the amount from the current bank account balance of the user.
-     * question_5: What does the getBalance method do?
+     * answer_2: method deposit takes amount and increase the value of balance by the value of the amount.
+     * question_3: What does the withdraw method do?
+     * answer_3:  method withdraw takes amount as input and decreases the value of balance by the value of the amount.
+     * question_4: What does the getBalance method do?
+     * answer_4:  method getBalance returns the balance amount in the bank account. 
      */
 
     public void deposit(double amount) {
@@ -70,8 +66,9 @@ public class BankAccount {
     public static void main(String[] args) {
 
         /**
-         * logical_step_4: Create an instance "myBankAccount" of the class BankAccount.
-         * logical_step_details: Create an instance "myBankAccount" of the class BankAccount. The construcotr is invoked by passing value 38.
+         * logical_step_4: Create an object called "myBankAccount".
+         * logical_step_details: Create an object called "myBankAccount".
+         Create an instance "myBankAccount" of the class BankAccount. The construcotr is invoked by passing value 38.
          * question_1:  What does the following block of code do??
          * answer_1:  Create an instance "myBankAccount" of the class BankAccount.
          * question_2: What value is pass to to invoke constructor?
