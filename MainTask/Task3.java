@@ -10,8 +10,8 @@ public class Tester {
     public static void main(String[] args) {
         /** 
          * logical_step_1: Declares the variables num and integer and assigns values.
-         * logical_steps_details: Declare two integer variables num and divisor . The value of variable num is  initialize to 25. The value of variable
-	 * divisor is intialized to 2.
+         * logical_steps_details: Declare two integer variables num and divisor. 
+	 * The value of variable num is initialize to 25. The value of variable divisor is initialized to 2.
          * question_1: What does the following code block do?
          * answer_1:  Declares the variables num and integer and assigns values.
 	 * question_2: What is the value of num?
@@ -23,10 +23,10 @@ public class Tester {
         int divisor = 2;
          
 	/**
-        * logical_step_2: Executes the while loop  and incrment the value of divisor by 1 until the conditon num modulus divisor is 0 is met.
-        * logical_step_details: Executes the while loop  and incrment the value of divisor by 1 until the conditon num modulus divisor is 0 is met.
-	* 25 % 2 is not equal to 0. So, thee loop executes and the value of divisior is 3 when while loop executes first time. The value of divisor is 
-	* 5 when the while loop condtion satisfy. The program prints 5.
+        * logical_step_2: Executes the while loop and incrment the value of divisor by 1 until the condition num modulus divisor is 0 is met.
+        * logical_step_details: Executes the while loop and incrment the value of divisor by 1 until the conditon num modulus divisor is 0 is met.
+	* 25 % 2 is not equal to 0. So, thee loop executes and the value of divisor is 3 when while loop executes first time. The value of divisor is 
+	* 5 when the while loop condition satisfies. The program prints 5.
         * question_1: What does the following code block do?
         * answer_1: Executes the while loop  and incrment the value of divisor by 1 until the conditon num modulus divisor is 0 is met.
 	* question_2: Is 25 % 2 is qual to 0?
