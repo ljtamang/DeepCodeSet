@@ -26,7 +26,8 @@ public class Tester {
         /**
          * logical_step_2: Add the value of natural numbers less than 5 to the previous value of result.
          * logical_step_detail: Add the value of each natural number which is less than 5 to the previous value of the result
-         * and update the value of the variable result.
+         * and update the value of the variable result. The body of the for-loop is executed 5 times. The value of result when i=1 is 3.
+         * The initial value of the variable i is 0. The loop terminates when i >= 5.
          * question_1: What does the following block of code do?
          * answer_1: Add the value of natural numbers less than 5 to the previous value of result.
          * question_2: How many times is the body of for-loop executed?
@@ -51,8 +52,8 @@ public class Tester {
             result = result + i;
         }
         /**
-         * logical_step_3: Display the value of result.
-         * logical_step_details: Display the value of result in the output stream.
+         * logical_step_3: Print the value of result which is 12.
+         * logical_step_details: Print the value of result which is 12.
          * question_1: What does the following block of code do?
          * answer_1: Display the value of result.
          * question_2: What value will be displayed in the screen?
