@@ -25,7 +25,7 @@ public class Tester {
         
         /**
          * logical_step_2: checks multiple condition using if-else-if and execute the part of code inside the condtion that satisfy
-         * logical_step_details: checks multiple condition using if-else-if and execute the part of code inside the condtion that satisfy. The first condtion if (i > 5) executes  since i = 10 and 10 > 5 is true. Inside the first if conditon that satisfies, the else condtion is met since i % 2 > 0 is false. The value of result is -1 since result is decremented by 1
+         * logical_step_details: checks multiple condition using if-else-if and execute the part of code inside the condition that satisfy. The first condition if (i > 5) executes  since i = 10 and 10 > 5 is true. Inside the first if conditon that satisfies, the else condtion is met since i % 2 > 0 is false. The value of result is -1 since result is decremented by 1
          * question_1: What does the following block of code do?
          * answer_1: checks multiple condition using if-else-if and execute the part of code inside the condtion that satisfy.
          * question_2: Which condtion executes among if, else if and else and why?
@@ -60,7 +60,7 @@ public class Tester {
 
          /**
          * logical_step_3: Prints the value of result.
-         * logical_step_details:Prints the value of result. The value printed is -1 
+         * logical_step_details: Prints the value of result. The value printed is -1 
          * question_1: What does the following block of code do?
          * answer_1: Prints the value of result.
          * question_2: What value is printed?
