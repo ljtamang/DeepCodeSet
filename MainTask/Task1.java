@@ -56,7 +56,7 @@ public class MyTester {
 	* question_1: Please explain what the following line of code does?
 	* answer_1: Print out the value of the result variable.
 	* question_2: What is the value of result?
-	* answer_2: The value of result is 0.
+	* answer_2: The value of result is 1.
 	*/
         System.out.println(result);
     }
