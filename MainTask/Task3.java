@@ -23,20 +23,16 @@ public class Tester {
         int divisor = 2;
          
 	/**
-        * logical_step_2: Executes the while loop and incrment the value of divisor by 1 until the condition num modulus divisor is 0 is met.
-        * logical_step_details: Executes the while loop and incrment the value of divisor by 1 until the conditon num modulus divisor is 0 is met.
-	* 25 % 2 is not equal to 0. So, thee loop executes and the value of divisor is 3 when while loop executes first time. The value of divisor is 
-	* 5 when the while loop condition satisfies. The program prints 5.
+        * logical_step_2: Executes the while loop and increment the value of divisor by 1 until the condition num modulus divisor is 0 is met.
+        * logical_step_details: Executes the while loop and incrment the value of divisor by 1 until the conditon num modulus divisor is 0 is met. 25 % 2 is not equal to 0. So, the loop executes and the value of divisor is 3 when while loop executes first time. The value of divisor is 5 at the end of while loop execution.
         * question_1: What does the following code block do?
-        * answer_1: Executes the while loop  and incrment the value of divisor by 1 until the conditon num modulus divisor is 0 is met.
-	* question_2: Is 25 % 2 is qual to 0?
+        * answer_1: Executes the while loop and increment the value of divisor by 1 until the conditon num modulus divisor is 0 is met.
+	* question_2: Is 25 % 2 equal to 0?
         * answer_2: No
 	* question_3:  What is the value of divisor when while loop executes for firs time?
         * answer_3: 3
-        * question_4:  What is the value of divisor when the while loop conditon satisfy?
+        * question_4:  What is the value of divisor at the end of while loop execution?
         * answer_4: the value of divisor is 5.
-	* question_5: What is the value printed?
-        * answer_4: 5.
         */
         
         /** 
