@@ -89,7 +89,7 @@ public class BankAccount {
         /**
          * logical_step_5: Check if balance and decide withdrawal amount or deposit based on the value of balance.
          * logical_step_details:  Check if balance and decide withdrawal amount or deposit based on the value of balance.
-         * The value of myBankAccount.getBalance() is 38. Therefore, else if condition is satisfied. The statement insdie else if withrdawas amount 30.
+         * The value of myBankAccount.getBalance() is 38. Therefore, else if condition is satisfied. The statement inside else if withrdawas amount 30.
          * question_1: What does the following block of code do?
          * answer_1: Check if balance and decide withdrawal amount or deposit based on the value of balance.
          * question_2: What is the value of myBankAccount.getBalance()?
