@@ -12,32 +12,29 @@
 public class Tester {
     public static void main(String[] args) {
         /**
-         * logical_step_1: Specify the initial value of result.
-         * logical_step_details: Declare an integer variable result and assign it's values to be 2.
+         * logical_step_1: Declare an variable result to store result.
+         * logical_step_details: Declare an variable result to store result. The data type of variable result is integer. The variable result is initalized to 2
          * question_1: What does the following block of code do?
-         * answer_1: Specify the initial value of result.
+         * answer_1: Declare an variable result to store result.
          * question_2: What is the data type of the variable result?
-         * answer_2: result is an integer
-         * question_3: What is the value of the variable result?
-         * answer_3: the value of result is 2
+         * answer_2: The data type of result is an integer
+         * question_3: What value is result intialized ?
+         * answer_3:  The variable result is initialized to 2
          */
         int result = 2;
 
         /**
-         * logical_step_2: Add the value of natural numbers less than 5 to the previous value of result.
-         * logical_step_detail: Add the value of each natural number which is less than 5 to the previous value of the result
-         * and update the value of the variable result. The body of the for-loop is executed 5 times. The value of result when i=1 is 3.
+         * logical_step_2: Add the values from 0 to 4 to the previous value of result.
+         * logical_step_detail: Add the values from 0 to 4 to the previous value of result. The initial value of variable i is 0. The body of the for-loop executes 5 times. The value of result when for loop execution completes is 12.
          * The initial value of the variable i is 0. The loop terminates when i >= 5.
          * question_1: What does the following block of code do?
-         * answer_1: Add the value of natural numbers less than 5 to the previous value of result.
-         * question_2: How many times is the body of for-loop executed?
-         * answer_2: The body of the for-loop is executed 5 times.
-         * question_3: What is the value of  result when i=1?
-         * answer_3:  the value of result is 3.
-         * question_4: What is initial value of the variable i?
-         * answer_4:  the initial value of i is 0.
-         * question_5: What is the loop termination criteria for the for-loop given below?
-         * answer_5:  i >= 5
+         * answer_1: Add the values from 0 to 4 to the previous value of result.
+         * question_2: What is initial value of the variable i?
+         * answer_2: the initial value of variable i is 0.
+         * question_3: How many times the body of for-loop executes?
+         * answer_3: The body of the for-loop executes 5 times.
+         * question_4: What is the value of result when for loop execution completes?
+         * answer_4:  12
          */
 
         /**
@@ -47,20 +44,9 @@ public class Tester {
          *  answer_1: The for loop has initial value i=10, it checks on whether the value of i is less than 5. If true,
          *  the body of the for loop is executed and the value of the variable result is updated by adding the value i to it.
          * */
-
         for (int i = 0; i < 5; i++) {
             result = result + i;
         }
-        /**
-         * logical_step_3: Print the value of result which is 12.
-         * logical_step_details: Print the value of result which is 12.
-         * question_1: What does the following block of code do?
-         * answer_1: Display the value of result.
-         * question_2: What value will be displayed in the screen?
-         * answer_2: The value of the variable result will be displayed
-         * question_3: what is the value of result?
-         * answer_3: the value of result is 12
-         */
         System.out.println(result);
     }
 }
