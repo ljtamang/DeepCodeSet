@@ -13,15 +13,13 @@ public class MyTester {
     	/**
 	* logical_step_1: Declare a  variable called i, j and result.
 	* logical_step_details: Declare a variable called i,j and results. The data type of the variable i, j and results is integer.
-	* Variable i is initialized to a value of 5 and j is initialized to a value of 8. Variable j is initialized without any value.
+	* Variable i is initialized to a value of 5 and j is initialized to a value of 8. 
 	* question_1: What does the following code block do?
 	* answer_1: Declare a variable called i,j and results.
 	* question_2: What is the data type of the variables i, j and result?
 	* answer_2: The data type of the variable i, j and results is integer.
 	* question_3: What is the value of variable i and j?
 	* answer_3: Variable i is initialized to a value of 5 and j is initialized to a value of 8.
-	* question_4: What is the value of variable result?
-	* answer_4: Variable j is initialized without any value.
 	*/
         int i = 5;
         int j = 8;
