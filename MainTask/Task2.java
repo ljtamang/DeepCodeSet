@@ -30,8 +30,8 @@ public class Tester {
          * answer_1: checks multiple condition using if-else-if and execute the part of code inside the condtion that satisfy.
          * question_2: Which condtion executes among if, else if and else and why?
          * answer_2: The first condtion if (i > 5) executes  since i = 10 and 10 > 5 is true.
-         * question_3: What is the value of   i % 2 and why?
-         * answer_3:  The value of i % 2 is 0 since 10 % 2 = 0.
+         * question_3: What is the value of i modulus 2 and why?
+         * answer_3:  The value of i modulus 2 is 0 since 10 modulus 2 equals 0.
          * question_4: Now, inside the first if conditon, which condition is met among if and else, and why?
          * answer_4:  else condtion is met since i % 2 > 0 is false.
          * question_5: What is the value of result and why?
@@ -57,15 +57,6 @@ public class Tester {
         } else {
             result = 100;
         }
-
-         /**
-         * logical_step_3: Prints the value of result.
-         * logical_step_details: Prints the value of result. The value printed is -1 
-         * question_1: What does the following block of code do?
-         * answer_1: Prints the value of result.
-         * question_2: What value is printed?
-         * answer_2: The value printed is -1 
-         */
         System.out.println(result);
     }
 }
