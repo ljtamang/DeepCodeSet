@@ -40,6 +40,6 @@ question_4: What is the output of following block of code ?
 answer_4: it displays "It's a leap Year"
 //
 statement: 1 start: 8 end: 10
-stm_comment: the ternary operator '?:' is used to check the whether the year is leap year of not. Because the condition for a year to be leap year is satified. the leapYear variable has a value "It's a leap Year"
+stm_comment: the ternary operator '?:' is used to check the whether the year is leap year of not. Because the condition for a year to be leap year is satified. the leapYear variable has a value "It's a leap Year" .
 question_1: Please expaling what the ternary operator does
 answer_1: Because the condition for a year to be leap year is satified. the leapYear variable has a value "It's a leap Year"
