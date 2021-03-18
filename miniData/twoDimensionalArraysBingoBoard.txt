@@ -99,4 +99,4 @@ answer_1: Print the Bingo board.
 question_2: How many times does the outer loop execute?
 answer_2: The outer loop iterates 5 times.
 question_3: How many times does the inner loop execute?
-answer_3: The inner loop exectues 5 times.
+answer_3: The inner loop exectues 5 times .
