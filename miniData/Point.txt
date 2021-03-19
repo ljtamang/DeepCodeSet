@@ -55,7 +55,7 @@ block: 3 start: 11 end: 14
 logical_step_3: Declare the method called 'translate' to shift this point's location by the given amount.
 logical_step_details: Declares method for shifting x and y value by given amount. X is shifted by dx amount. y is shifted by dy amount.
 question_1: What does the following code block do?
-answer_1:  Declares the method 'translate' to shift this point's location by the given amount.
+answer_1: Declares the method 'translate' to shift this point's location by the given amount.
 question_2: By what amount x and y are shifted?
 answer_2: x is shifted by dx and y is shifted by dy.
 ////
