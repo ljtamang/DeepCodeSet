@@ -72,7 +72,7 @@ stm_comment: This statement invokes the method setX of the point to set its x-co
 ////
 block: 5 start: 22 end: 23
 logical_step_5: Tanslate the value of x and y by given amount and prints new coordinates.
-logical_step_details:  Call the method translate which shifts x by 11 and y by 6. The final x and y coordinates printed after calling translate method is 18, 8.
+logical_step_details: Call the method translate which shifts x by 11 and y by 6. The final x and y coordinates printed after calling translate method is 18, 8.
 question_1: What does the following code block do?
 answer_1: Tanslates the value of x and y by given amount and prints new coordinates.
 question_2: What is the value of x and y coordinates after calling translate method?
