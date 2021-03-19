@@ -1,19 +1,19 @@
 public class Grades {
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-        int testScore = 90;
-        char grade;
+		int testScore = 90;
+		char grade;
 
-        if (testScore >= 90) {
-            grade = 'A';
-        } else if (testScore >= 80) {
-            grade = 'B';
-        } else if (testScore >= 70) {
-            grade = 'C';
-        } else {
-            grade = 'F';
-        }
-        System.out.println("Grade = " + grade);
+		if (testScore >= 90) {
+			grade = 'A';
+		} else if (testScore >= 80) {
+			grade = 'B';
+		} else if (testScore >= 70) {
+			grade = 'C';
+		} else {
+			grade = 'F';
+		}
+		System.out.println("Grade = " + grade);
 		
     }
 }
