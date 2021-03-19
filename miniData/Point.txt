@@ -42,10 +42,10 @@ question_2: What is data type for field X and Y?
 answer_2: Integer.
 ////
 block: 2 start: 6 end: 9
-logical_step_2: Define getter and setter methods point x and y.
+logical_step_2: Define getter and setter methods for point x and y.
 logical_step_details: setX and setY methods set the value of the x and y coordinates. getX and getY gets the value of the x and y coordinates.
 question_1: What does the following code block do?
-answer_1: Define getter and setter methods point x and y.
+answer_1: Define getter and setter methods for point x and y.
 question_2: What does setX and setY method do?
 answer_2: sets x and y values.
 question_3: What does getX and getY method do?
