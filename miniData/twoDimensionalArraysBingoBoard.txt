@@ -77,7 +77,7 @@ question_3: What is the size of two dimensional array bingoBoard?
 answer_3: The size of the array is 5 x 5 or 25 cells.	
 ////
 block: 3 start: 8 end: 14
-logical_step_2: Generate 25 random numbers in the range of 1 to 75 and populate the Bingo board.
+logical_step_2:  Generate 25 random numbers in the range of 1 to 75 and populate the Bingo board.
 logical_step_details: Two loops are used to scan all the cells on a Bingo board. The outer loop accounts for the rows and the inner loop for all the cells in one row. For each scanned cell on the Bingo board, a random number is generated and stored in the cell.
 question_1: What does the following code block do?
 answer_1: Generate 25 random numbers in the range of 1 to 75 and populate the Bingo board.
