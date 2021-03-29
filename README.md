@@ -1,1 +1,5 @@
 # DeepCodeSet
+Identify major logical steps. Then, add a logical step comment corresponding to the logical step. The logical steps and corresponding comments should describe the logical steps of the overall algorithm implemented in the code. The comment should describe the logical step.
+
+## Logical Steps
+Logical steps are meaningful, higher-level steps in the overall solution/algorithm implemented by the code. The logical step should be something very high level and link the code to the story/real-world application at a very high level. It should be a concise and one sentence in size referring mostly to objects and relations of the domain/problem being solved. Cross-references/usage of concepts from the ‘program model’, i.e., implementation, should be avoided or kept at a minimum when describing a logical step. It is not necessary to describe in detail how the step is being implemented but simply indicate the meaningfulpurpose/functionality of each code chunk in the context of the overall goal/purpose of the code
