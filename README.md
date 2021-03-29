@@ -4,10 +4,12 @@ DeepCode is a set of instructional materials to assist with the development of a
 ## About Metadata
 
 ### Logical Steps
-Logical steps are meaningful, higher-level steps in the overall solution/algorithm implemented by the code. It link the code to the story/real-world application at a very high level. It is a concise and one sentence in size referring mostly to objects and relations of the domain/problem being solved.  It simply indicate the meaningful purpose/functionality of each code chunk in the context of the overall goal/purpose of the code.
+Logical step is a concise sentence associated with a chunk of the code and it simply tells the meaninguful purpose/functionality of such chunk of the code in the context of the overall goal/purpose of the code.  Here, the chunk of the code referes to the logically seperable block of code with subgoals. All logical steps together forms meaningful, higher-level steps in the overall solution/algorithm implemented by the code as whole.
+
+A logical step refers mostly to objects and relations of the domain/problem being solved. It link the code chunk to the story/real-world application at a very high level. Cross-references/usage of concepts from the ‘program model’, i.e., implementation, are avoided or kept at a minimum when describing a logical step.
 
 ### Logical step details
-Logical step details link the higher level logical step to how the step is actually carried out in the code. That is, the logical step links the code to the story/real-world problem at a very high level whereas the logical step details provides details about how the logical step is being carried out in computer code. 
+Logical step details link the higher level logical step to how the step is actually carried out in the code. That is, the logical step links the code to the story/real-world problem at a very high level whereas the logical step details provides details about how the logical step is being carried out in computer code. The logical_step_details field links the problem/domain model to theimplementation, i.e., to the program model.
  
 ### Statement level comments
 Statement level comments for individual statements refer to the newly introduced topic and emphasize the elements of the statement that are directly related to the newly introduced concept.Statement level comments refer more to the ‘program model’, i.e., implementation details describing key aspects of thenew concept. The statement level comment  should not necessarily be about the general functionof the statement but rather focus on the parts related to the new concept. For instance, if the topic isarrays, parts of a for loop that do not refer to arrays should not be explained in detail in a statement level comment.
