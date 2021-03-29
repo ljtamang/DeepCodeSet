@@ -8,6 +8,11 @@ A logical step is a concise sentence  that describes at avery high level the fun
 
 Here, the chunk of the code referes to the logically seperable block of code with subgoals. All logical steps together should forms meaningful, higher-level steps in the overall solution/algorithm implemented by the code as whole. And, cross-references/usage of concepts from the ‘program model’, i.e., implementation, are avoided or kept at a minimum when describing a logical step.
 
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+
 ### Logical step details
 Logical step details link the higher level logical step to how the step is actually carried out in the code. That is, the logical step links the code to the story/real-world problem at a very high level whereas the logical step details provides details about how the logical step is being carried out in computer code. The logical_step_details field links the problem/domain model to theimplementation, i.e., to the program model.
  
