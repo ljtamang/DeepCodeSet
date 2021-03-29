@@ -4,7 +4,7 @@ DeepCode is a set of instructional materials to assist with the development of a
 ## About Metadata
 
 ### Logical Steps
-Logical steps are meaningful, higher-level steps in the overall solution/algorithm implemented by the code. The logical step should be something very high level and link the code to the story/real-world application at a very high level. It should be a concise and one sentence in size referring mostly to objects and relations of the domain/problem being solved.  It simply indicate the meaningful purpose/functionality of each code chunk in the context of the overall goal/purpose of the code.
+Logical steps are meaningful, higher-level steps in the overall solution/algorithm implemented by the code. It link the code to the story/real-world application at a very high level. It is a concise and one sentence in size referring mostly to objects and relations of the domain/problem being solved.  It simply indicate the meaningful purpose/functionality of each code chunk in the context of the overall goal/purpose of the code.
 
 ### Logical step details
 Logical step details are meant to link the higher level logical step to how the step is actually carried out in the code. That is, the logical step links the code to the story/real-world problem at a very high level whereas the logical step details provides details about how the logical step is being carried out in computer code. 
