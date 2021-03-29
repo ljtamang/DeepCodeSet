@@ -1,5 +1,5 @@
 # DeepCodeSet
-DeepCode is a set of instructional materials to assist with the development of adaptive instructional systems (AISs) that foster the monitoring, understanding,and scaffolding of code comprehension processes and the acquisition of code comprehension skills for students learningto program. It can be also used for other purposes such as assessment, problem-solving, and in various other learning activities and for other instructional purposes. 
+DeepCode is a set of instructional materials to assist with the development of adaptive instructional systems (AISs) that foster the monitoring, understanding,and scaffolding of code comprehension processes and the acquisition of code comprehension skills for students learning to program. It can be also used for other purposes such as assessment, problem-solving, and in various other learning activities and for other instructional purposes. 
 
 ## About Metadata
 
