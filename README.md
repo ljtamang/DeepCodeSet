@@ -23,11 +23,3 @@ Questions and Answers serve as hints in the form of scaffolding questions and th
 The goal of questions and answers below the logical step detail is to use those hints to scaffold students’ self-explanations of the logical steps and logical step details.  The first question is vague as "What does the following code block do?" which is mean to elicit logcail step and rest sequenc of questions is to help elicit logical step details. 
 
 Simialry, one or more scaffolding questions after the statement comment are meant elicit statment comments. In a typical case, there should be one question which should elicit the statement level comment as an answer. If the statement comment has more than one important aspect related to the target topic/concept, then, more than one question may be necessary. In general, there should be one question per each important aspect. Similarly, if there is more than one construct in the line of code referring to the target concept/topic then more than one question and answer may be necessary.
-
-## How does logical step detail and statment level comment differ?
-The goal of the logical step details comments and related questions is to guide students to articulate the logical steps whereas statement level comments serve the goal of making students focus and understand any element/aspect of the topic/concept of focus.
-
-Statement level comment is about a statement which is part of some logical step. The logical step questions may ask about this statement through one of the questions associated with a logical step, which is perfectly fine. To avoid redundancy and to follow the guidelines for a statement level comment, the general principle to be followed is to focus the questions associated with a logical step on the general substeps (the entire statement corresponding to a statement comment may be such a substep) and the questions associated with a statement level commentshould focus on the aspects/elements of the statement that refer to the new concept/topic. A question about what the overall statement does may be used in the latter case in which case a similar question may or maynot be used in the logical step questions (redundancy cannot hurt, but may be annoying to some students -dynamically and user-adaptively asking the questions may mitigate this issue).
-
-
-
