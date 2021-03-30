@@ -27,7 +27,7 @@ public class Point {
 }
 
 ////
-topics: Objects
+topics: Class and Objects
 subtopics: Initalizing an object, accessing getter ans setter method, accessing methods
 goalDescription: This program shifts the x and y coordiantes by a given amount.
 source: http://pawscomp2.sis.pitt.edu/pcex/pcex_v2/index.html?lang=JAVA&set=objects.classes.point&v=201803162257
