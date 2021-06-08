@@ -43,7 +43,7 @@ question_4: When does the loop end?
 answer_4: The loop ends when the variable i reaches 1000.
 //
 statement: 1 start: 10 end: 10
-tm_comment: The loop variable i is being incremented which is important in order for the loop condition to change.
+stm_comment: The loop variable i is being incremented which is important in order for the loop condition to change.
 question_1: Why is the following statement important for the loop?
 answer_1: The loop variable i is being incremented which is important in order for the loop condition to change and eventually for the loop to end.
 ////
