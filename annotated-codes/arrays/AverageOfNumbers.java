@@ -17,7 +17,7 @@ public class AverageOfNumbers {
         * answer_1: Declares variables to store numbers and their sum.
         * question_2: What variables are declared?
 		* answer_2: An array of double types called numArray and variable called sum of double type is declared.
-		* question_3: What is the value of the sum initialized to ?
+		* question_3: What is the value of the sum initialized to?
 		* answer_3: The value of the sum is initialized to 0.
         */
         double[] numArray = { 8, 6, 11, 7};
@@ -57,7 +57,7 @@ public class AverageOfNumbers {
         */
         /*
         stm_comment: numArray.length gives the number of elements of the array.
-        question_1: what gives the number of elements of an array ?
+        question_1: what gives the number of elements of an array?
         answer_1: numArray.length gives the number of elements of the array.
 	    */
         double average = sum / numArray.length;
