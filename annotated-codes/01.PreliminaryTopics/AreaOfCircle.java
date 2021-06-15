@@ -1,10 +1,10 @@
 /*
-topic: Preliminary Topics
-subtopic: Variables, Expressions, Constants, Primitive Data Types
-goalDescription: Calcluate area of a circle.
-source: NA
-input: N/A
-output: The area for the circle of radius 5.80 is 105.68 
+* topic: Preliminary Topics
+* subtopic: Variables, Expressions, Constants, Primitive Data Types
+* goalDescription: Calcluate area of a circle.
+* source: NA
+* input: N/A
+* output: The area for the circle of radius 5.80 is 105.68 
 */
 public class AreaOfCircle {
     public static void main(String[] args) {
