@@ -12,7 +12,6 @@ public class AverageOfNumbers {
         /*
         * logical_step_1: Declares variables to store numbers and their sum.
         * logical_step_details: An array of double types called numArray is declared to store the numbers of which we want to find the average. Also, a variable called sum of double type is declared to represent the sum of the numbers. The value of the sum is initialized to 0.
-        
         * question_1: What does the following block of code do?
         * answer_1: Declares variables to store numbers and their sum.
         * question_2: What variables are declared?
@@ -24,7 +23,7 @@ public class AverageOfNumbers {
         double sum = 0.0;
 
         /*
-        * logical_step_1: Calculate the sum of all elements in the array.
+        * logical_step_2: Calculate the sum of all elements in the array.
         * logical_step_details: The sum of all elements in the array is calculated using a for-each loop. The for-each loop iterates over each value of the array and add that value to the sum. At the end of the for-each loop execution, the value of the sum is 32.
         * question_1: What does the following block of code do?
         * answer_1: Calculate the sum of all elements in the array.
@@ -43,9 +42,8 @@ public class AverageOfNumbers {
         }
 
         /*
-        * logical_step_1: Calculate the average and print it.
+        * logical_step_3: Calculate the average and print it.
         * logical_step_details: The average of numbers is calculated by dividing the sum of elements of the array by the length of the array. The value of sum is 32 and the length of the array is 4. Therefore, the calculated value of the average is 8.00.
-        
         * question_1: What does the following block of code do?
         * answer_1: Calculate the average and print it.
         * question_2: How is average caclualted?
