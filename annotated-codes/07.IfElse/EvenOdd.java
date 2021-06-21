@@ -43,8 +43,8 @@ public class EvenOdd {
             System.out.println(num + " is even");
         /**
          * stm_comment: The code block inside the else condition executes when if the condition is false.
-         * question_1: What happens when the condition is false ?
-         * answer_1: The code block inside the else condition executes when if the condition is false.
+         * question_1: When does the else condition execute?
+         * answer_1: The code block inside the else condition executes when the condition is false.
          */
         else
             System.out.println(num + " is odd");
