@@ -26,7 +26,7 @@ public class EvenOdd {
 
         /**
          * logical_step_1: Perform a test to check if the number is even or odd and print the result.
-         * logical_step_details: To check whether a number is even or odd, the remainder of the number divisible by 2 is calculated using the % operator. The remainder is 0 or not is checked using if-else.  The number is even if the remainder is 0, otherwise, it is odd. In this example, the program prints 9 is odd.
+         * logical_step_details: To check whether a number is even or odd, the remainder of the number divisible by 2 is calculated using the % operator. The number is even if the remainder is 0, otherwise, it is odd. In this example, the program prints 9 is odd.
          * question_1: What does the following block of the code do?
          * answer_1:  Perform a test to check if the number is even or odd and print the result.
          * question_2: What is done to check if the number is even or odd?
@@ -34,8 +34,18 @@ public class EvenOdd {
          * question_3: What happens if the remainder is 0?
          * answer_3: The number is even if the remainder is 0.
          */
+        /**
+         * stm_comment: The code block inside the if condition executes when if a condition is true. 
+         * question_1: What happens if the condition is true ?
+         * answer_1: The code block inside the if condition executes when if a condition is true. 
+         */
         if (num % 2 == 0)
             System.out.println(num + " is even");
+        /**
+         * stm_comment: The code block inside the else condition executes when if the condition is false.
+         * question_1: What happens when the condition is false ?
+         * answer_1: The code block inside the else condition executes when if the condition is false.
+         */
         else
             System.out.println(num + " is odd");
 
