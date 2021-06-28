@@ -16,10 +16,10 @@ public class AverageOfNumbers {
         * question_1: What does the following block of code do?
         * answer_1: Declares variables to store numbers and their sum.
         * question_2: What variables are declared?
-		    * answer_2: An array of double types called numArray and variable called sum of double type is declared.
-		    * question_3: What is the value of the sum initialized to?
-		    * answer_3: The value of the sum is initialized to 0.
-        */
+		* answer_2: An array of double types called numArray and variable called sum of double type is declared.
+		* question_3: What is the value of the sum initialized to?
+		* answer_3: The value of the sum is initialized to 0.
+		*/
         double[] numArray = { 8, 6, 11, 7};
         double sum = 0.0;
 
@@ -48,15 +48,15 @@ public class AverageOfNumbers {
         * question_1: What does the following block of code do?
         * answer_1: Calculate the average and print it.
         * question_2: How is average caclualted?
-		    * answer_2: The average is calculated by dividing the sum of elements of the array by the length of the array.
+		* answer_2: The average is calculated by dividing the sum of elements of the array by the length of the array.
         * question_3: What is the length of the array?
-		    * answer_3: Length of the array is 5.
-		    * question_4: What is the calculated value of the average?
-		    * answer_4: The calculated value of the average is 8.00.
-        */
+		* answer_3: Length of the array is 5.
+		* question_4: What is the calculated value of the average?
+		* answer_4: The calculated value of the average is 8.00.
+		*/
         /**
         * stm_comment: numArray.length gives the number of elements of the array.
-        * question_1: what gives the number of elements of an array?
+        * question_1: What gives the number of elements of an array?
         * answer_1: numArray.length gives the number of elements of the array.
 	      */
         double average = sum / numArray.length;
