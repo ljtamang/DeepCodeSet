@@ -49,12 +49,12 @@ public class gridOfStars {
 		*/
         for (int row = 0; row < height; row++) {
 		/**
-		 * stm_comment: This second for loop is known as the inner or nested loop. The inner loop runs for width iterations.
-		 * question_1: What is the second for loop called?
-		 * answer_1: This second for loop is known as the inner or nested loop. 
-		 * question_2: How many times does inner loop run?
-		 * answer_2: The inner loop runs for width iterations.
-		 */
+		* stm_comment: This second for loop is known as the inner or nested loop. The inner loop runs for width iterations.
+		* question_1: What is the second for loop called?
+		* answer_1: This second for loop is known as the inner or nested loop. 
+		* question_2: How many times does inner loop run?
+		* answer_2: The inner loop runs for width iterations.
+		*/
             for (int col = 0; col < width; col++) {
                 System.out.print("*");
             }
