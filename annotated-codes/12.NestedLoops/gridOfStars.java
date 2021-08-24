@@ -59,8 +59,7 @@ public class gridOfStars {
                 System.out.print("*");
             }
             System.out.println("");
-
         }
+		
     }
-
 }
