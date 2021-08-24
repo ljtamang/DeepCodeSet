@@ -10,7 +10,6 @@
 *****
 *****
 */
-
 public class gridOfStars {
     public static void main(String[] args) {
 
