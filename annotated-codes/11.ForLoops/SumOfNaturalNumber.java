@@ -9,7 +9,8 @@
  */
 public class SumOfNaturalNumber {
   public static void main(String[] args) {
-      /**
+      
+	  /**
       * logical_step_1: Declare variables to represent a sum and limit up to which we want to find the sum.
       * logical_step_details: A variable sum of integer type is declared to represent the sum of natural numbers. Also, another variable n of integer type is declared to represent the limit up to which we want to find the sum.
       * question_1: What does the following block of code do?
