@@ -23,7 +23,7 @@ public class SumOfNaturalNumber {
       int sum = 0;
       int n = 10;
 
-       /**
+      /**
       * logical_step_2: Find the sum of natural numbers from 1 to 10 and print it.
       *logical_step_details: Here, the value of the sum is 0 initially. Then, the for loop is iterated from i = 1 to 10. In each iteration, i is added to the sum and its value is increased by 1. When the for loop completes execution, the value of the sum is 55. Finally, the program prints "sum = 55".
       *question_1: What does the following block of code do?
@@ -38,7 +38,8 @@ public class SumOfNaturalNumber {
       *answer_5: the value of sum is 55.
       *question_6: What does program print?
       *answer_6: sum = 55
-      /**
+      */
+	  /**
       *  stm_comment: The for loop stop executing when i becomes 11.
       *  question_1: when does the for loop stop executing ?
       *  answer_1:  The for loop stop executing when i becomes 11.
