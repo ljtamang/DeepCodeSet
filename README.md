@@ -15,7 +15,9 @@ Here,
 Logical step details link the higher level logical step to how the step is actually carried out in the code. That is, the logical step links the code to the story/real-world problem at a very high level whereas the logical step details provides details about how the logical step is being carried out in computer code. The logical_step_details field links the problem/domain model to the implementation, i.e., to the program model.
  
 ### Statement comments (stm_comment)
-Statement level comments serve the goal of making students focus and understand any element/aspect of the topic/concept of focus. Statment comment appear only for the statement (line of code) that refer to the newly introduced topic (i.e. target topic for which the code example is created). It refers more to program model i.e. describes implementation details for the statement focusing on key aspects of the new concept. The statement level comment should not necessarily be about the general function of the statement but rather focus on the parts related to the new concept. For instance, if the topic is arrays, parts of a for loop that do not refer to arrays should not be explained in detail in a statement level comment.
+Statement comment provides an implementation details for only a line of code that refer to target topic for which the code example is created. It refers more to program model (i.e. describes implementation details). The statement level comment should not necessarily be about the general function of the statement but rather focus on the parts related to the new concept.  For instance, if the topic is arrays, parts of a for loop that do not refer to arrays should not be explained in detail in a statement level comment.
+
+The main goal of the statement level comments is to make student understand any element/aspect of the topic/concept of focus. 
 
 ### Question and Answer
 Questions and Answers serve as hints in the form of scaffolding questions and the corresponding correct answers to those hints. The questions should cover all the important or key elements of the logical steps, the logical step details, and newly introduced concepts. 
