@@ -1,11 +1,11 @@
 /**
-* topic: Preliminary Topics
-* subtopic: Variables, Expressions, Constants, Primitive Data Types
-* goalDescription: Calcluate area of a circle.
-* source: NA
-* input: N/A
-* output: The area for the circle of radius 5.80 is 105.68 
-*/
+ * topic: Preliminary Topics
+ * subtopic: Variables, Expressions, Constants, Primitive Data Types
+ * goalDescription: Calcluate area of a circle.
+ * source: NA
+ * input: N/A
+ * output: The area for the circle of radius 5.80 is 105.68 
+ */
 public class AreaOfCircle {
     public static void main(String[] args) {
 
@@ -33,7 +33,7 @@ public class AreaOfCircle {
          * question_1: What does the following block of code do?
          * answer_1: Calculates the area of the circle and prints the value.
          * question_2: What does expression area = radius * radius * PI do?
-         * answer_2: The expression area = radius * radius * PI calulates area of circle.
+         * answer_2: The expression area = radius * radius * PI calculates the area of the circle.
          * question_3: What is the calculated value of the area?
          * answer_3: Therefore, the calculated value of the area is 105.68.
          */
