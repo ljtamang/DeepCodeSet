@@ -36,7 +36,7 @@ public class EvenOdd {
          */
         /**
          * stm_comment: The code block inside the if condition executes when if a condition is true. 
-         * question_1: What happens if the condition is true ?
+         * question_1: What happens if the condition is true?
          * answer_1: The code block inside the if condition executes when if a condition is true. 
          */
         if (num % 2 == 0)
