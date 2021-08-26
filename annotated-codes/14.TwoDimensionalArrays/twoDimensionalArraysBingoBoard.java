@@ -2,7 +2,7 @@
 * author: Vasile Rus
 * topics: two-dimensional arrays
 * subtopics: two-dimensional arrays
-* goalDescription: Generate a 3 x 3 Bingo board with random numbers from 1 to 25. The board will be populated from the top-left corner, one row at a time, all the way to the bottom right corner.
+* goalDescription: Generate and print a 3 x 3 Bingo board with random numbers from 1 to 25.
 * source: N/A
 * output:
 16 15 11 
