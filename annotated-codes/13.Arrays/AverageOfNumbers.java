@@ -2,7 +2,7 @@
  * author: Lasang Tamang
  * topic: Arrays
  * subTopic: declaring array variables, processing array
- * goalDescription: Program to Calculate average of numbers.
+ * goalDescription: Calculate average of numbers.
  * source: https://www.programiz.com/java-programming/examples/average-arrays
  * input: N/A
  * output: The average is: 8.00
@@ -20,12 +20,7 @@ public class AverageOfNumbers {
          * question_3: What is the value of the sum initialized to?
          * answer_3: The value of the sum is initialized to 0.
          */
-        double[] numArray = {
-            8,
-            6,
-            11,
-            7
-        };
+        double[] numArray = {8, 6, 11, 7};
         double sum = 0.0;
 
         /**
