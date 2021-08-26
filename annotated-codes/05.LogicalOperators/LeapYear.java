@@ -1,7 +1,7 @@
 /**
  * author: Priti Oli, refined by Lasang Tamang 
  * topics: Logical Operator 
- * subtopics: Logical and, Logical or, ternary operator 
+ * subtopics: Logical AND, Logical OR, ternary operator 
  * goalDescription: Checks whether a year is a leap year or not 
  * source: N/A
  * input: N/A
@@ -17,20 +17,20 @@ public class LeapYear {
          * answer_1: Declare variable to store a year that we want to check.
          * question_2: Why is variable year declared?
          * answer_2: A variable year is declared to store the year to check whether it's a leap year or not. 
-         * question_3: What value is stored to the variable year?
-         * answer_3: The value 2020 is stored.
+         * question_3: What year is the value of the variable year initialized to?
+         * answer_3: The value of the variable year is initialized to 2020.
          */
         int year = 2020;
 
         /**
          * logical_step_2: Check whether the year is a leap year or not.
-         * logical_step_details: To check whether the year is a leap year or not, the expression is defined using a logical operator. Since the expression evaluates to true, the value "Leap Year" is assigned to the string variable leap year. Therefore, the program prints "Leap Year".
+         * logical_step_details: The expression is defined to check whether a year is a leap year or not using a logical operator. Since the expression evaluates to true, the value "Leap Year" is assigned to the string variable leapYear. Therefore, the program prints "Leap Year".
          * question_1:What does the following block of code do?
          * answer_1: Check whether the year is a leap year or not.
          * question_2:  Does the expression evaluate to true?
-         * answer_2: Yes
+         * answer_2: Yes, the expression evaluates to true.
          * question_3:  What value will be assigned to the variable leapYear?
-         * answer_3: "Leap Year".
+         * answer_3: The variable leapYear is assigned "Leap Year".
          * question_4: What does the program print?
          * answer_4: The program prints "Leap Year".
          */
