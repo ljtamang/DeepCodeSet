@@ -10,7 +10,7 @@
  *****
  *****
  */
-public class gridOfStars {
+public class GridOfStars {
     public static void main(String[] args) {
 
         /**
