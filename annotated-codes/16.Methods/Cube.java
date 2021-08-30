@@ -38,9 +38,9 @@ public class Cube {
          * question_2: What is called?
          * answer_2: Method vol of class Cube is called.
          * question_3: What is assigned to a variable result?
-         *  answer_3: The returned value of the method vol is assigned to a variable result.
-         * answer_2: what value is printed?
-         * question_3: The value 27 is printed
+         * answer_3: The returned value of the method vol is assigned to a variable result.
+         * question_4: what value is printed?
+         * answer_4: The value 27 is printed.
          */
         /**
          stm_comment: The value 3 is passed as a parameter value to the method cube. 
