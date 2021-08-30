@@ -10,7 +10,7 @@
 10 10 6 
 */
 import java.util.Random;
-public class twoDimensionalArraysBingoBoard {
+public class BingoBoard {
     public static void main(String[] args) {
 
         /**
