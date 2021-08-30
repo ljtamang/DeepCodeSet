@@ -19,8 +19,8 @@ public class EvenOdd {
          * answer_2: A variable num is declared to represent a number to check whether Even or Odd.
          * question_3: What is the data type of num?
          * answer_3: The data type of num is an integer.
-         * question_3: What value is assigned to num?
-         * answer_3: The num is assigned the value of 9.
+         * question_4: What value is assigned to num?
+         * answer_4: The num is assigned the value of 9.
          */
         int num = 9;
 
