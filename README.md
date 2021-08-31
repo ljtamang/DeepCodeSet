@@ -1,7 +1,10 @@
 # DeepCodeSet
-DeepCode is a set of instructional materials, which goal is to assist the development of adaptive instructional systems (AISs) that foster the monitoring, understanding, scaffolding, and the acquisition of code comprehension skills for students learning to program. It can be also used for assessment, problem-solving, and in various other learning activities and instructional purposes. 
+DeepCode is a set of instructional whose goal is to assist the development of adaptive instructional systems (AISs) that foster the monitoring, understanding, scaffolding, and acquisition of code comprehension skills for students learning to program. It can be also used for assessment, problem-solving, and in various other learning activities and instructional purposes. 
 
-## About Metadata
+The insturctional materials consists of code examples with comments and annotations as described in [guideline](https://github.com/CSEdPad/annotated-java-examples/blob/master/guidelines.md).
+
+## Metadata
+The code examples consists of meta data which are described as below.
 
 ### Logical Steps (logical_step)
 A logical step is a concise sentence  that describes at a very high level the functionality of a chunk of code with respect to the overall goal of the code. It refers mostly to objects and relations of the domain/problem being solved. It link the code chunk to the story/real-world application at a very high level.
