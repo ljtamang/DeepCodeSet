@@ -11,7 +11,7 @@ The folder [`miniDeepCodeSet/`](miniDeepCodeSet) of this repository contains wel
 6 | Nested Loops | [`GridOfStars.java`](miniDeepCodeSet/12.NestedLoops) | Print a grid of stars
 7 | Arrays | [`AverageOfNumbers.java`](/miniDeepCodeSet/13.Arrays) | Calculate Average of numbers
 8 | Two Dimensional Arrays | [`BingoBoard.java`](miniDeepCodeSet/14.TwoDimensionalArrays) | Generate and print a 3 x 3 Bingo board with random numbers from 1 to 25
-9 | Methods [`Cube.java`](miniDeepCodeSet/16.Methods) | Calculate the volume of the cube|
+9 | Methods | [`Cube.java`](miniDeepCodeSet/16.Methods) | Calculate the volume of the cube|
 10 | Classes and Objects | [`Point.java`](miniDeepCodeSet/17.ClassesObject) | A program to translate a point
 
 ## What is  DeepCodeSet?
