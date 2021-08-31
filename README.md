@@ -1,6 +1,6 @@
 The folder [`miniDeepCodeSet/`](miniDeepCodeSet) of this repository contains well-refined 10 code examples from [DeepCodeSet Repo](https://github.com/CSEdPad/annotated-java-examples). It was created with goal of giving early public access to few selected annotated code examples in [DeepCodeSet](https://github.com/CSEdPad/annotated-java-examples).
 
-### Selected Code Examples
+## Selected Code Examples
 \#    | Topic | Selected Example | Task
 ----- | ----- | ----------- | --------
 1  | Preliminary Topics | [`AreaOfCircle.java`](miniDeepCodeSet/01.PreliminaryTopics) | Calcluate area of a circle
@@ -14,13 +14,13 @@ The folder [`miniDeepCodeSet/`](miniDeepCodeSet) of this repository contains wel
 9 | Methods | [`Cube.java`](miniDeepCodeSet/16.Methods) | Calculate the volume of the cube|
 10 | Classes and Objects | [`Point.java`](miniDeepCodeSet/17.ClassesObject) | A program to translate a point
 
-### What is  DeepCodeSet?
+## What is  DeepCodeSet?
 DeepCode is a set of instructional materials whose goal is to assist the development of adaptive instructional systems (AISs) that foster the monitoring, understanding, scaffolding, and acquisition of code comprehension skills for students learning to program. It can be also used for assessment, problem-solving, and in various other learning activities and instructional purposes. To know more about DeepCodeSet, visit [Official DeepCodeSet Page](https://github.com/CSEdPad/annotated-java-examples)
 
-### Annotation Guideline
+## Annotation Guideline
 To know about how these code examples are created and annotated, please look [guideline](https://github.com/CSEdPad/annotated-java-examples/blob/master/guidelines.md). 
 
-###  Key Terms
+##  Key Terms
 Below, we present a brief description of different key terms used in our code examples. However, we strongly encourage you to look at [guideline](https://github.com/CSEdPad/annotated-java-examples/blob/master/guidelines.md) for detailed information.
 
 #### Logical Steps (logical_step)
@@ -46,6 +46,6 @@ The goal of questions and answers below the logical step detail is to use those 
 
 Similarly, one or more scaffolding questions after the statement comment are meant to elicit statment comments. In a typical case, there should be one question that should elicit the statement-level comment as an answer. If the statement comment has more than one important aspect related to the target topic/concept, then, more than one question may be necessary. In general, there should be one question for each important aspect. Similarly, if there is more than one construct in the line of code referring to the target concept/topic then more than one question and the answer may be necessary.
 
-### Acknowledgements
+## Acknowledgements
 
 This material is based upon work supported by the National Science Foundation under Grant No. [1822816](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1822816) and [1822752](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1822752). Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
