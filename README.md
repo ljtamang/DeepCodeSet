@@ -3,6 +3,19 @@ The folder [`miniDeepCodeSet/`](miniDeepCodeSet) of this repository contains wel
 ## What is  DeepCodeSet?
 DeepCode is a set of instructional materials whose goal is to assist the development of adaptive instructional systems (AISs) that foster the monitoring, understanding, scaffolding, and acquisition of code comprehension skills for students learning to program. It can be also used for assessment, problem-solving, and in various other learning activities and instructional purposes. The insturctional materials consists of code examples with comments and annotations as described in [guideline](https://github.com/CSEdPad/annotated-java-examples/blob/master/guidelines.md). To know more about DeepCodeSet, visit [Official DeepCodeSet Page](https://github.com/CSEdPad/annotated-java-examples)
 
+\#    | Topic | Description | Examples
+----- | ----- | ----------- | --------
+1  | Preliminary Topics | Calcluate area of a circle | [`miniDeepCodeSet/01.PreliminaryTopics`](miniDeepCodeSet/01.PreliminaryTopics)
+2  | Logical Operators | Checks whether a year is a leap year or not | [`topics/05.LogicalOperators`](topics/05.LogicalOperators)
+3  | If-Else | Check Whether a number is Even or Odd | [`topics/07.IfElse`](topics/07.IfElse)
+4  | While Loops | Looping control flows with `while` statements. | [`topics/09.WhileLoops`](topics/09.WhileLoops)
+5 | For Loops | Find the sum of natural numbers from 1 to 10 | [`topics/11.ForLoops`](topics/11.ForLoops)
+6 | Nested Loops | Print a grid of stars | [`topics/12.NestedLoops`](topics/12.NestedLoops)
+7 | Arrays | Calculate Average of numbers | [`topics/13.Arrays`](topics/13.Arrays)
+8 | Two Dimensional Arrays | Generate and print a 3 x 3 Bingo board with random numbers from 1 to 25 | [`topics/14.TwoDimensionalArrays`](topics/14.TwoDimensionalArrays)
+9 | Methods | Calculate the volume of the cube| [`topics/16.Methods`](topics/16.Methods)
+10 | Classes and Objects | A program to translate a point | [`topics/17.ClassesObjects`](topics/17.ClassesObjects)
+
 ## Metadata
 The code examples consists of meta data which are described as below.
 
