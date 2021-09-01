@@ -1,7 +1,7 @@
 /**
  * author: Hasan Mashrique
  * topic: Methods
- * subtopic: creating class objects, storing results in a variable, printing variable.
+ * subtopic: creating class objects, storing results in a variable, printing variable
  * goalDescription: Calculate the volume of the cube.
  * source:
  * *input : N/A
