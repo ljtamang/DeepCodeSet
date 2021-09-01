@@ -3,7 +3,7 @@
  * topic: Methods
  * subtopic: creating class objects, storing results in a variable, printing variable
  * goalDescription: Calculate the volume of the cube.
- * source:
+ * source: N/A
  * *input : N/A
  * output: 27
  */
