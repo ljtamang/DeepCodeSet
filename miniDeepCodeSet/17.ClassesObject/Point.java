@@ -28,7 +28,6 @@ public class Point {
     public void setY(int newY) { this.y = newY; }
     public int getY() { return y; }
 
-
     /**
      * logical_step_2: Define a method to translate the point.
      * logical_step_details: A method translate is defined to shift x and y coordinates of a point.  It takes dx and dy as a parameter.
