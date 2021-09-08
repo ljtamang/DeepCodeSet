@@ -55,7 +55,8 @@ public class Point {
          * question_3: The value x is 7 and y is 2.
          */
         Point point = new Point();
-        /* stm_comment: Calls a setter method to set the value of x.
+        /**
+		 * stm_comment: Calls a setter method to set the value of x.
          * question_1: What does the following statment do?
          * answer_1: Calls a setter method to set the value of x.
          */
