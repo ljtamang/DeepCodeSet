@@ -42,7 +42,7 @@ public class AverageOfNumbers {
             sum += num;
         }
 
-        /*
+        /**
          * logical_step_3: Calculate the average and print it.
          * logical_step_details: The average of numbers is calculated by dividing the sum of elements of the array by the length of the array. The value of the sum is 32 and the length of the array is 4. Therefore, the calculated value of the average is 8.00.
          * question_1: What does the following block of code do?
