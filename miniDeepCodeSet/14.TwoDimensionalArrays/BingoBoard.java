@@ -4,10 +4,7 @@
 * subtopics: two-dimensional arrays
 * goalDescription: Generate and print a 3 x 3 Bingo board with random numbers from 1 to 25.
 * source: N/A
-* output:
-16 15 11 
-2 13 21 
-10 10 6 
+* output: non-deterministic
 */
 import java.util.Random;
 public class BingoBoard {
