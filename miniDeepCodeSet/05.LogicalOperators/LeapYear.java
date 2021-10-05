@@ -23,7 +23,7 @@ public class LeapYear {
          * answer_3: The variable leapYear is of type string. 
          */
         int year = 2020;
-		String leapYear;
+        String leapYear;
 
         /**
          * domain_model_question: What is the goal of the following block of code?
