@@ -14,30 +14,30 @@ public class GridOfStars {
     public static void main(String[] args) {
 
         /**
+         * domain_model_question: What is the goal of the following block of code?
          * logical_step_1: Specify the size of the grid in terms of height and width measured in the number of stars.
-         * logical_step_details: Declare two integer variables height and width that indicates the size of the grid and initialize them to 3 and 5, respectively.
-         * question_1: What does the following block of code do?
-         * answer_1: Specify the size of the grid in terms of height and width measured in the number of stars.
-         * question_2: What is done to indicate the size of the grid?
-         * answer_2: Declare two integer variables height and width that indicates the size of the grid.
-         * question_3: What is the height of the grid initialized to?
-         * answer_3: The height of the grid is initialized to value 3.
-         * question_4: What is the width of the grid initialized to?
-         * answer_4:  The width of the grid is initialized to value 5.
+         * program_model_question: Can you explain in detail how the goal of the current block of code is actually implemented?
+         * logical_step_details: Declare two integer variables height and width to indicates the size of the grid. The value of the variable height is initialized to 3. The value of the variable width is initialized to 5.
+         * question_1: What is done to indicate the size of the grid?
+         * answer_1: Declare two integer variables height and width that indicate the size of the grid.
+         * question_2: What value is the variable height initialized to?
+         * answer_2: The value of the variable height is initialized to 3.
+         * question_3: What value is the variable width initialized to?
+         * answer_3: The value of the variable height is initialized to 5.
          */
         int height = 3, width = 5;
 
         /**
+         * domain_model_question: What is the goal of the following block of code?
          * logical_step_2: Use nested loops to scan the grid and print a star in each cell of the grid.
+         * program_model_question: Can you explain in detail how the goal of the current block of code is actually implemented?
          * logical_step_details: Uses two for loops to scan the grid one row at a time from left to right and print a star in each cell of the grid. The first for loop is used to scan all rows of the grid using the loop variable row. The second for loop scans all the columns given the current row indicated by the outer loop.
-         * question_1: What does the following block of code do?
-         * answer_1: Use nested loops to scan the grid and print a star in each cell of the grid.
-         * question_2: How many loops do we use?
-         * answer_2: We use two for loops.
-         * question_3: What is the first for loop used for?
-         * answer_3: The first for loop is used to scan all rows of the grid.
-         * question_4: What does the second for loop do?
-         * answer_4: The second for loop scans all the columns given the current row indicated by the outer loop.
+         * question_1: How many loops do we use?
+         * answer_1: We use two for loops.
+         * question_2: What is the first for loop used for?
+         * answer_2: The first for loop is used to scan all rows of the grid.
+         * question_3: What does the second for loop do?
+         * answer_3: The second for loop scans all the columns given the current row indicated by the outer loop.
          */
         /** 
          * stm_comment: This first for loop is called the outer loop. The outer loop runs for height iterations.
@@ -51,7 +51,7 @@ public class GridOfStars {
              * stm_comment: This second for loop is known as the inner or nested loop. The inner loop runs for width iterations.
              * question_1: What is the second for loop called?
              * answer_1: This second for loop is known as the inner or nested loop. 
-             * question_2: How many times does inner loop run?
+             * question_2: How many times does the inner loop run?
              * answer_2: The inner loop runs for width iterations.
              */
             for (int col = 0; col < width; col++) {
