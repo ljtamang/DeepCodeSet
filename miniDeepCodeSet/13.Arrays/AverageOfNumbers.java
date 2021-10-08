@@ -33,7 +33,7 @@ public class AverageOfNumbers {
         /**
          * domain_model_question: What is the goal of the following block of code?
          * logical_step_2: Calculate the sum of numbers.
-         *  program_model_question: Can you explain in detail how the goal of the current block of code is actually implemented?
+         * program_model_question: Can you explain in detail how the goal of the current block of code is actually implemented?
          * logical_step_details: The for loop is used to iterate over each value of the array. During each iteration, the value of the array at index i is added to the value of the sum. When the for loop completes, the value of the sum is 32.
          * question_1: What does the for loop do?
          * answer_2: The for loop is used to iterate over each value of the array.
