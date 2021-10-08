@@ -13,7 +13,7 @@ public class EvenOdd {
         /**
          * domain_model_question: What is the goal of the following block of code?
          * logical_step_1: Declare a variable to store a number that we want to check.
-         *  program_model_question: Can you explain in detail how the goal of the current block of code is actually implemented?
+         * program_model_question: Can you explain in detail how the goal of the current block of code is actually implemented?
          * logical_step_details: A variable num of integer type is declared to store a number to check whether Even or Odd. The variable num is initialized to the value of 9.
          * question_1: What is the data type of the variable num?
          * answer_1: The data type of the variable num is an integer.
