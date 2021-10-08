@@ -38,7 +38,7 @@ public class Cube {
          * answer_3: The program prints 27.
          */
         /**
-         stm_comment: The value 3 is passed as a parameter value to the method cube. 
+         * stm_comment: The value 3 is passed as a parameter value to the method cube. 
          * question_1: What value is passed as a parameter value to method cube?
          * answer_1: The value 3 is passed as a parameter value to the method cube. 
          */
