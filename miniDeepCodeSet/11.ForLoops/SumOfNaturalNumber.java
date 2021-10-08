@@ -35,7 +35,7 @@ public class SumOfNaturalNumber {
          * question_3: In each iteration, what is added to the sum?
          * answer_3: In each iteration, the value of i is added to the sum.
          * question_4: What is the value of sum when for loop complete execution?
-         * answer_4: the value of the sum is 55.
+         * answer_4: The value of the sum is 55.
          * question_5: What does the program print?
          * answer_5: sum = 55
          */
