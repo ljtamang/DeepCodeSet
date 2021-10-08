@@ -38,9 +38,9 @@ public class BingoBoard {
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 5; j++) {
                 /**
-                 *  stm_comment: bingoBoard[i][j] represents the element in ith row and jth column.
-                 *  question_1: What does bingoBoard[i][j] represent ?
-                 *  answer: bingoBoard[i][j] represents the element in ith row and jth column.
+                 * stm_comment: bingoBoard[i][j] represents the element in ith row and jth column.
+                 * question_1: What does bingoBoard[i][j] represent ?
+                 * answer: bingoBoard[i][j] represents the element in ith row and jth column.
                  */
                 bingoBoard[i][j] = 1 + rand.nextInt(75);
             }
@@ -49,7 +49,7 @@ public class BingoBoard {
         /**
          * domain_model_question: What is the goal of the following block of code?
          * logical_step_3: Print the Bingo board.
-         * * program_model_question: Can you explain in detail how the goal of the current block of code is actually implemented?
+         * program_model_question: Can you explain in detail how the goal of the current block of code is actually implemented?
          * logical_step_details: Two for loop is used to scan each cell of the Bingo board from the top left corner to the bottom right corner. Then, the value in each cell of the bingo board is printed.
          * question_1: What are two for loop used for?
          * answer_1: Two for loop is used to scan each cell of the Bingo board from the top left corner to the bottom right corner.
