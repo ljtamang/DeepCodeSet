@@ -13,7 +13,7 @@ public class Cube {
         /**
          * domain_model_question: What is the goal of the following block of code?
          * logical_step_1: Declare variables to store the length and volume of the cube. 
-         *  program_model_question: Can you explain in detail how the goal of the current block of code is actually implemented?
+         * program_model_question: Can you explain in detail how the goal of the current block of code is actually implemented?
          * logical_step_details: A variable sideLength of integer type is declared to represent the length of a side of the cube. The value of the variable sideLength is initialized to 3. The variable vol is declared to store the volume of the cube.
          * question_1: What is the type of variable sideLength?
          * answer_1: The variable sideLength is of integer type. 
@@ -28,7 +28,7 @@ public class Cube {
         /**
          * domain_model_question: What is the goal of the following block of code?
          * logical_step_1: Computes the volume of cube and prints the value.
-         *  program_model_question: Can you explain in detail how the goal of the current block of code is actually implemented?
+         * program_model_question: Can you explain in detail how the goal of the current block of code is actually implemented?
          * logical_step_details: To calculate the volume of the cube, the program calls a method vol. The method vol returns the value 27. Therefore, the program prints 27.
          * question_1: What does the program do to calculate the volume of the cube?
          * answer_1: To calculate the volume of the cube, the program calls a method vol.
