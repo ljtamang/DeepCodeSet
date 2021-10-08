@@ -10,16 +10,16 @@
 public class Point {
 
     /**
+     * domain_model_question: What is the goal of the following block of code?
      * logical_step_1: Declare variables to represent a point and method to access them.
-     * logical_step_details: Variables x and y of integer type are declared to represent the coordinates of a point. The getter methods get the coordinates of a point. The setter method sets the coordinates of points.
-     * question_1: What does the following block of code do?
-     * answer_1: Declare variables to represent a point and method to access them.
-     * question_2: What is the data type of variable x and y?
-     * answer_2: Variables x and y are of integer type.
-     * question_3: What does a getter method do?
-     * answer_3:  The getter methods get the coordinates of a point.
-     * question_4: What does a setter method do?
-     * answer_4:  The setter method sets the coordinates of points.
+     * program_model_question: Can you explain in detail how the goal of the current block of code is actually implemented?
+     * logical_step_details: Variables x and y of integer type are declared to represent the coordinates of a point. The getter methods get the coordinates of the point. The setter method sets the coordinates of the point.
+     * question_1: What is the data type of variable x and y?
+     * answer_1: Variables x and y are of integer type.
+     * question_2: What does a getter method do?
+     * answer_2: The getter methods get the coordinates of the point.
+     * question_3: What does a setter method do?
+     * answer_3: The setter method sets the coordinates of the point.
      */
     private int x;
     private int y;
@@ -28,58 +28,57 @@ public class Point {
     public void setY(int newY) { this.y = newY; }
     public int getY() { return y; }
 
+    public static void main(String[] args) {
+
+        /**
+         * domain_model_question: What is the goal of the following block of code?
+         * logical_step_2: Creates an object to represent a point.
+         * program_model_question: Can you explain in detail how the goal of the current block of code is actually implemented?
+         * logical_step_details:  To represent a point, an object of class Point is initialized. The value of the x coordinate is initialized to 7. The value of the y coordinate is initialized to 2.
+         * question_1: What do we do to represent a point?
+         * answer_1: To represent a point, an object of class Point is initialized.
+         * question_2: What value is x coordinate initialized to?
+         * question_2: The value of x coordinate is initialized to 7. 
+         * question_3:  What value is y coordinate initialized to?
+         * question_3: The value of the y coordinate is initialized to 2.
+         */
+        Point point = new Point();
+        point.setX(7);
+        point.setY(2);
+
+        /**
+         * domain_model_question: What is the goal of the following block of code?
+         * logical_step_3: Call a translate method and print new coordinates.
+         * program_model_question: Can you explain in detail how the goal of the current block of code is actually implemented?
+         * logical_step_details: Method translate is invoked. After calling the translate method, the value of x and y is 18 and 8 respectively.
+         * question_1: What method is invoked?
+         * answer_1: Method translate is invoked.
+         * question_2: What is the value of x and y coordinates after calling the translate method?
+         * answer_2: After calling the translate method, the value of x and y  is 18 and 8 respectively.
+         */
+        /**
+         * stm_comment: The values 11 and 6 are passed as a parameter to method translate?
+         * question_1: What values are passed as a parameter to method translate?
+         * answer_1: The values 11 and 6 are passed as a parameter to method translate?
+         */
+        point.translate(11, 6);
+        System.out.println("New coordinates is (" + point.getX() + ", " + point.getY() + ")");
+
+    }
+
     /**
-     * logical_step_2: Define a method to translate the point.
-     * logical_step_details: A method translate is defined to shift x and y coordinates of a point.  It takes dx and dy as a parameter.
-     * question_1: What does the following code block do?
-     * answer_1:  Define a method to translate the point.
-     * question_2: Why is method translate defined?
-     * answer_2: A method translate is defined to shift x and y coordinates of a point.
-     *  question_2: It takes dx and dy as a parameter.
+     * domain_model_question: What is the goal of the following block of code?
+     * logical_step_4: Define a method to translate the point.
+     * program_model_question: Can you explain in detail how the goal of the current block of code is actually implemented?
+     * logical_step_details: A method translate shifts x and y coordinates of a point. It takes dx and dy as a parameter.
+     * question_1: What does method translate do?
+     * answer_1: A method translate shifts x and y coordinates of a point.
+     * question_2: What does method translate take as a parameter?
+     * answer_2: It takes dx and dy as a parameter.
      */
     public void translate(int dx, int dy) {
         x += dx;
         y += dy;
     }
 
-    public static void main(String[] args) {
-        
-        /**
-         * logical_step_3: Creates an object to represent a point.
-         * logical_step_details:  To represent a point, an object of class Point is initialized. The values x and y are set to 7 and 2 respectively.
-         * question_1: What does the following code block do?
-         * answer_1: Creates an object to represent a point.
-         * question_2: What do we do to represent a point?
-         * answer_2: To represent a point, an object of class Point is initialized.
-         * question_3: What is the value of x and y?
-         * question_3: The value x is 7 and y is 2.
-         */
-        Point point = new Point();
-        /**
-		 * stm_comment: Calls a setter method to set the value of x.
-         * question_1: What does the following statment do?
-         * answer_1: Calls a setter method to set the value of x.
-         */
-        point.setX(7);
-        point.setY(2);
-
-        /**
-         * logical_step_4: Call a translate method and print new coordinates.
-         * logical_step_details: Call the method translate which shifts x by 11 and y by 6. After calling the translate method, the value of x and y is 18 and 8 respectively.
-         * question_1: What does the following code block do?
-         * answer_1: Call a translate method and print new coordinates.
-         * question_2: What does the method translate do?
-         * answer_2: The method translate shifts x by 11 and y by 6.
-         * question_2: What is the value of x and y coordinates after calling the translate method?
-         * answer_2:  After calling the translate method, the value of x and y  is 18 and 8 respectively.
-         */
-        /**
-         * stm_comment: call the method translate of the point object.
-         * question_1: What does the following statment do?
-         * answer_1: call the method translate of the point object.
-         */
-        point.translate(11, 6);
-        System.out.println("New coordinates is (" + point.getX() + ", " + point.getY() + ")");
-
-    }
 }
