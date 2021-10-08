@@ -35,7 +35,7 @@ public class LeapYear {
          * question_2: Does the expression evaluate to true?
          * answer_2: Yes, the expression evaluates to true.
          * question_3: What value will be assigned to the variable leapYear?
-         * answer_3: The variable leapYear is assigned "Leap Year".
+         * answer_3: The variable leapYear is assigned the string "Leap Year".
          * question_4: What does the program print?
          * answer_4: The program prints "Leap Year".
          */
