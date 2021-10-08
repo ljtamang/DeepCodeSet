@@ -59,7 +59,7 @@ public class AverageOfNumbers {
         /**
          * domain_model_question: What is the goal of the following block of code?
          * logical_step_3: Calculate the average and print it.
-         *  program_model_question: Can you explain in detail how the goal of the current block of code is actually implemented?
+         * program_model_question: Can you explain in detail how the goal of the current block of code is actually implemented?
          * logical_step_details: The average of numbers is calculated by dividing the sum of elements of the array by the length of the array. The length of the array numArray is 5. Therefore, the calculated value of the average is 8.00.
          * question_1: How is the average calculated?
          * answer_1: The average is calculated by dividing the sum of elements of the array by the length of the array.
