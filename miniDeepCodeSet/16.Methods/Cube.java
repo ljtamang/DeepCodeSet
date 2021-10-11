@@ -4,7 +4,7 @@
  * subtopic: Define method, calling method
  * goalDescription: Calculate the volume of the cube.
  * source: N/A
- * *input : N/A
+ * input: N/A
  * output: 27
  */
 public class Cube {
