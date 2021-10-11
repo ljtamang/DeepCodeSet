@@ -4,6 +4,7 @@
  * subtopics: two-dimensional arrays, accesing value of two-dimensional arrays
  * goalDescription: Generate and print a 5 x 5 Bingo board with random numbers from 1 to 75.
  * source: N/A
+ * input: N/A
  * output: non-deterministic
  */
 import java.util.Random;
