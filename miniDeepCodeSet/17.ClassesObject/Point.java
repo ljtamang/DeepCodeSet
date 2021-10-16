@@ -38,9 +38,9 @@ public class Point {
          * question_1: What do we do to represent a point?
          * answer_1: To represent a point, an object of class Point is initialized.
          * question_2: What value is x coordinate initialized to?
-         * question_2: The value of x coordinate is initialized to 7. 
+         * answer_2: The value of x coordinate is initialized to 7. 
          * question_3:  What value is y coordinate initialized to?
-         * question_3: The value of the y coordinate is initialized to 2.
+         * answer_3: The value of the y coordinate is initialized to 2.
          */
         Point point = new Point();
         point.setX(7);
