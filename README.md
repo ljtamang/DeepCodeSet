@@ -3,16 +3,16 @@ The folder [`miniDeepCodeSet/`](miniDeepCodeSet) of this repository contains wel
 ## Selected Code Examples
 \#    | Topic | Selected Example | Task
 ----- | ----- | ----------- | --------
-1  | Preliminary Topics | [`AreaOfCircle.java`](miniDeepCodeSet/01.PreliminaryTopics) | Calcluate area of a circle
-2  | Logical Operators | [`LeapYear.java`](miniDeepCodeSet/05.LogicalOperators) | Checks whether a year is a leap year or not
-3  | If-Else | [`EvenOdd.java`](miniDeepCodeSet/07.IfElse) | Check Whether a number is Even or Odd
-4  | While Loops | [`SmallestDivisor.java`](miniDeepCodeSet/09.WhileLoops) | Find the smallest divisor (other than 1) of a positive number
-5 | For Loops | [`SumOfNaturalNumber.java`](miniDeepCodeSet/11.ForLoops) | Find the sum of natural numbers from 1 to 10
-6 | Nested Loops | [`GridOfStars.java`](miniDeepCodeSet/12.NestedLoops) | Print a grid of stars
-7 | Arrays | [`AverageOfNumbers.java`](/miniDeepCodeSet/13.Arrays) | Calculate Average of numbers
-8 | Two Dimensional Arrays | [`BingoBoard.java`](miniDeepCodeSet/14.TwoDimensionalArrays) | Generate and print a 3 x 3 Bingo board with random numbers from 1 to 25
-9 | Methods | [`Cube.java`](miniDeepCodeSet/16.Methods) | Calculate the volume of the cube|
-10 | Classes and Objects | [`Point.java`](miniDeepCodeSet/17.ClassesObject) | A program to translate a point
+1  | Preliminary Topics | [`AreaOfCircle.java`](miniDeepCodeSet/01.PreliminaryTopics/AreaOfCircle.java) | Calcluate area of a circle
+2  | Logical Operators | [`LeapYear.java`](miniDeepCodeSet/05.LogicalOperators/LeapYear.java) | Checks whether a year is a leap year or not
+3  | If-Else | [`EvenOdd.java`](miniDeepCodeSet/07.IfElse/EvenOdd.java) | Check Whether a number is Even or Odd
+4  | While Loops | [`SmallestDivisor.java`](miniDeepCodeSet/09.WhileLoops/SmallestDivisor.java) | Find the smallest divisor (other than 1) of a positive number
+5 | For Loops | [`SumOfNaturalNumber.java`](miniDeepCodeSet/11.ForLoops/SumOfNaturalNumber.java) | Find the sum of natural numbers from 1 to 10
+6 | Nested Loops | [`GridOfStars.java`](miniDeepCodeSet/12.NestedLoops/GridOfStars.java) | Print a grid of stars
+7 | Arrays | [`AverageOfNumbers.java`](/miniDeepCodeSet/13.Arrays/AverageOfNumbers.java) | Calculate Average of numbers
+8 | Two Dimensional Arrays | [`BingoBoard.java`](miniDeepCodeSet/14.TwoDimensionalArrays/BingoBoard.java) | Generate and print a 3 x 3 Bingo board with random numbers from 1 to 25
+9 | Methods | [`Cube.java`](miniDeepCodeSet/16.Methods/Cube.java) | Calculate the volume of the cube|
+10 | Classes and Objects | [`Point.java`](miniDeepCodeSet/17.ClassesObject/Point.java) | A program to translate a point
 
 ## What is  DeepCodeSet?
 DeepCode is a set of instructional materials whose goal is to assist the development of adaptive instructional systems (AISs) that foster the monitoring, understanding, scaffolding, and acquisition of code comprehension skills for students learning to program. It can be also used for assessment, problem-solving, and in various other learning activities and instructional purposes. To know more about DeepCodeSet, visit [Official DeepCodeSet Page](https://github.com/CSEdPad/annotated-java-examples)
