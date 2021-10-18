@@ -1,5 +1,5 @@
 /**
- * author: Lasang Tamang 
+ * author: Lasang Tamang, refind by Dr Vasile Rus
  * topics: Logical Operator 
  * subtopics: Logical AND, Logical OR, ternary operator 
  * goalDescription: Checks whether a year is a leap year or not.
