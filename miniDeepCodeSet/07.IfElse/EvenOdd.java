@@ -1,5 +1,5 @@
 /**
- * author: Lasang Tamang 
+ * author: Lasang Tamang, refind by Dr Vasile Rus
  * topics: If-Else 
  * subtopics: If-Else 
  * goalDescription: Check Whether a number is Even or Odd.
