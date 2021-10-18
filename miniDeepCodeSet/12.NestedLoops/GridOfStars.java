@@ -24,6 +24,7 @@ public class GridOfStars {
          * answer_2: The value of the variable height is initialized to 3.
          * question_3: What value is the variable width initialized to?
          * answer_3: The value of the variable height is initialized to 5.
+         */
         int height = 3, width = 5;
 
         /**
@@ -38,7 +39,6 @@ public class GridOfStars {
          * question_3: What does the second or inner for loop do?
          * answer_3: The second or inner for loop scans all the columns in the current row.
          */
-        */
         /** 
          * stm_comment: This first for loop is called the outer loop. The outer loop runs for height iterations.
          * question_1: What is the first for loop called?
