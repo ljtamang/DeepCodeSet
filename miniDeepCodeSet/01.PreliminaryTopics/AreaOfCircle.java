@@ -1,5 +1,5 @@
 /**
- * author: Lasang Tamang
+ * author: Lasang Tamang, refind by Dr Vasile Rus
  * topic: Preliminary Topics
  * subtopic: Variables, Expressions, Constants, Primitive Data Types
  * goalDescription: Calculate the area of a circle.
