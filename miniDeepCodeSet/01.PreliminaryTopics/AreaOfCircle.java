@@ -3,7 +3,7 @@
  * topic: Preliminary Topics
  * subtopic: Variables, Expressions, Constants, Primitive Data Types
  * goalDescription: Calculate the area of a circle.
- * source: NA
+ * source: N/A
  * input: N/A
  * output: The area for the circle of radius 5.80 is 105.68 
  */
