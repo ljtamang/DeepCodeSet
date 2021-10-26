@@ -65,5 +65,4 @@ public class Cube {
         System.out.println(vol);
 
     }
-
 }
