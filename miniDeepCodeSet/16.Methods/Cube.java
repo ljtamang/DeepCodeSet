@@ -15,7 +15,7 @@ public class Cube {
      * program_model_question: Can you explain in detail how the goal of the current block of code is actually implemented?
      * logical_step_details: A static method vol is defined to compute and return the volume of a cube whose size is passed as an input parameter. The method vol is defined as static such that it belongs to the class which means it can be called without instantiating a specific instance or object of the class. The parameter x of the method vol represents the side of the cube. The volume is computed using the mathematical formula which indicates to multiply the side of the cube, which is x, 3 times.
      * question_1: Why is the method vol defined?
-     * answer_2: A static method vol is defined to compute and return the volume of a cube whose size is passed as an input parameter.
+     * answer_1: A static method vol is defined to compute and return the volume of a cube whose size is passed as an input parameter.
      * question_2: Why is the method vol defined as static?
      * answer_2: The method vol is defined as static such that it belongs to the class which means it can be called without instantiating a specific instance or object of the class.
      * question_3: What does the input parameter x of the vol method represent?
