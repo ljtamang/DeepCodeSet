@@ -43,7 +43,7 @@ public class BingoBoard {
                 /**
                  * stm_comment: bingoBoard[i][j] represents the element in ith row and jth column.
                  * question_1: Which elements or cell of the Bingo board is represented by the following construct, bingoBoard[i][j]?
-                 * answer: bingoBoard[i][j] represents the element in ith row and jth column.
+                 * answer_1: bingoBoard[i][j] represents the element in ith row and jth column.
                  */
                 bingoBoard[i][j] = 1 + rand.nextInt(75);
             }
