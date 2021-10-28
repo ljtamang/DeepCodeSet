@@ -1,0 +1,88 @@
+{
+    "author": "Lasang Tamang, refind by Dr Vasile Rus",
+    "topics": "If-Else",
+    "subtopics": "If-Else",
+    "goalDescription": "Check Whether a number is Even or Odd.",
+    "source": "https://www.programiz.com/java-programming/examples/even-odd",
+    "input": "N/A",
+    "output": "9 is odd",
+    "code": "public class EvenOdd {\n    public static void main(String[] args) {\n\n        int num = 9;\n\n        if (num % 2 == 0)\n            System.out.println(num + \" is even\");\n        else\n            System.out.println(num + \" is odd\");\n\n    }\n}\n",
+    "blocks": [
+        {
+            "blockNum": 1,
+            "start": 4,
+            "end": 4,
+            "domainModelQuestion": "What is the goal of the block of code (line 4)?",
+            "logicalStep": "It declares a variable to store a number to check whether it is odd or even.",
+            "programModelQuestion": "Can you explain in detail how the goal of the current block of code (line 4) is actually implemented?",
+            "logicalStepDetail": "A variable num of integer type is declared to store the number to be checked whether is even or odd. The variable num is initialized to the integer value 9.",
+            "questions": [
+                {
+                    "questionNum": "1",
+                    "question": "Why is variable num declared and what is its data type?",
+                    "answer": "A variable num of integer type is declared to store the number to be checked whether is even or odd."
+                },
+                {
+                    "questionNum": "2",
+                    "question": "What value is the variable num initialized to?",
+                    "answer": "The variable num is initialized to the integer value 9."
+                }
+            ],
+            "statements": []
+        },
+        {
+            "blockNum": 2,
+            "start": 6,
+            "end": 9,
+            "domainModelQuestion": "What is the goal of the block of code (line 6-line 9)?",
+            "logicalStep": "It performs a test to check if the number is even or odd and prints the result.",
+            "programModelQuestion": "Can you explain in detail how the goal of the current block of code (line 6-line 9) is actually implemented?",
+            "logicalStepDetail": "To check whether a number is even or odd, the remainder of the number divisible by 2 is calculated using the remainder % operator. The number is even if the remainder is 0, otherwise, it is odd. In this case, the program prints \"9 is odd\".",
+            "questions": [
+                {
+                    "questionNum": "1",
+                    "question": "How does the code check whether the number is even or odd?",
+                    "answer": "To check whether a number is even or odd, the remainder of the number divisible by 2 is calculated using the remainder % operator."
+                },
+                {
+                    "questionNum": "2",
+                    "question": "When is the number even or odd based on the remainder operation's result?",
+                    "answer": "The number is even if the remainder is 0, otherwise, it is odd."
+                },
+                {
+                    "questionNum": "3",
+                    "question": "What is printed to the standard output when num is 9?",
+                    "answer": "In this case, the program prints \"9 is odd\"."
+                }
+            ],
+            "statements": [
+                {
+                    "statementNum": 1,
+                    "start": 6,
+                    "end": 6,
+                    "statementComment": "The code block inside the then branch of the if statement executes when the condition evaluates to true, which is the case in this example.",
+                    "questions": [
+                        {
+                            "questionNum": 1,
+                            "question": "What happens if the condition of the if statement is true?",
+                            "answer": "The code block inside the then branch of the if statement executes when the condition evaluates to true, which is the case in this example."
+                        }
+                    ]
+                },
+                {
+                    "statementNum": 2,
+                    "start": 8,
+                    "end": 8,
+                    "statementComment": "The code block inside the else condition executes when if condition is false.",
+                    "questions": [
+                        {
+                            "questionNum": 1,
+                            "question": "When does the else condition execute?",
+                            "answer": "The code block inside the else condition executes when if condition is false."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

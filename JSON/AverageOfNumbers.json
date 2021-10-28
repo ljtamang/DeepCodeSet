@@ -1,0 +1,139 @@
+{
+    "author": "Lasang Tamang, refined by Dr Vasile Rus",
+    "topic": "Arrays",
+    "subTopic": "array declaration, array initalization, accessing value of an array",
+    "goalDescription": "Calculate average of numbers.",
+    "source": "https://www.programiz.com/java-programming/examples/average-arrays",
+    "input": "N/A",
+    "output": "The average is: 8.00",
+    "code": "public class AverageOfNumbers {\n    public static void main(String[] args) {\n\n        double[] numArray = {8,6,11,7};\n        double sum = 0.0;\n        double average;\n\n        for (int i = 0; i < numArray.length; i++) {\n            sum += numArray[i];\n        }\n\n        average = sum / numArray.length;\n        System.out.format(\"The average is: %.2f\", average);\n\n    }\n}\n",
+    "blocks": [
+        {
+            "blockNum": 1,
+            "start": 4,
+            "end": 6,
+            "domainModelQuestion": "What is the goal of the block of code (line 4-line 6)?",
+            "logicalStep": "It declares variables needed to store a set of numbers, their sum, and their average.",
+            "programModelQuestion": "Can you explain in detail how the goal of the current block of code (line 4-line 6) is actually implemented?",
+            "logicalStepDetail": "The array variable numArray is declared to store the numbers whose average will be computed. The variable sum is declared to represent the sum of the numbers. The value of the sum is initialized to 0. Also, the variable average of double type is declared to hold the average value of the numbers.",
+            "questions": [
+                {
+                    "questionNum": "1",
+                    "question": "Why is the array variable numArray declared and what is its type?",
+                    "answer": "The array variable numArray of type double is declared to store the numbers whose average will be computed."
+                },
+                {
+                    "questionNum": "2",
+                    "question": "Why is a variable sum declared and what is its type?",
+                    "answer": "The variable sum of type double is declared to represent the sum of the numbers."
+                },
+                {
+                    "questionNum": "3",
+                    "question": "What value is sum initialized to?",
+                    "answer": "The variable sum is initialized to 0."
+                },
+                {
+                    "questionNum": "4",
+                    "question": "Why is variable average declared and what is its type?",
+                    "answer": "The variable average of type double is declared to hold the value of the average of the numbers."
+                }
+            ],
+            "statements": []
+        },
+        {
+            "blockNum": 2,
+            "start": 8,
+            "end": 10,
+            "domainModelQuestion": "What is the goal of the block of code (line 8-line 10)?",
+            "logicalStep": "It calculates the sum of numbers stored in the numArray as in order to compute the average we must find their sum first.",
+            "programModelQuestion": "Can you explain in detail how the goal of the current block of code (line 8-line 10) is actually implemented?",
+            "logicalStepDetail": "The sum of numbers is calculated using a for loop that iterates over each number in the numArray array and adds each number to the sum. When the for loop completes execution, the value of the sum is 32.",
+            "questions": [
+                {
+                    "questionNum": "1",
+                    "question": "How is a sum of numbers calculated?",
+                    "answer": "The sum of numbers is calculated using a for loop that iterates over each number of numArray and adds each number to the sum."
+                },
+                {
+                    "questionNum": "2",
+                    "question": "What is the value of sum when the for loop completes execution?",
+                    "answer": "When the for loop completes execution, the value of the sum is 32."
+                }
+            ],
+            "statements": [
+                {
+                    "statementNum": 1,
+                    "start": 8,
+                    "end": 8,
+                    "statementComment": "The for loop runs for a number of iterations equal to the length of the numArray.",
+                    "questions": [
+                        {
+                            "questionNum": 1,
+                            "question": "How many times does the for loop run?",
+                            "answer": "The for loop runs for a number of iterations equal to the length of the numArray."
+                        }
+                    ]
+                },
+                {
+                    "statementNum": 2,
+                    "start": 9,
+                    "end": 9,
+                    "statementComment": "numArray[i] is used to access a value stored in array numArray at index postion i.",
+                    "questions": [
+                        {
+                            "questionNum": 1,
+                            "question": "What is numArray[i] used for?",
+                            "answer": "numArray[i] is used to acces a value stored in array numArray at index postion i."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockNum": 3,
+            "start": 12,
+            "end": 13,
+            "domainModelQuestion": "What is the goal of the block of code (line 12-line 13)?",
+            "logicalStep": "It calculates the average of the numbers and prints it.",
+            "programModelQuestion": "Can you explain in detail how the goal of the current block of code (line 12-line 13) is actually implemented?",
+            "logicalStepDetail": "The average of numbers is calculated by dividing the sum of elements of the array by the length of the array, which is the number of numbers. The value of the sum of numbers is 32. The length of the array numArray is 5. Therefore, the value of the average is 8.00.",
+            "questions": [
+                {
+                    "questionNum": "1",
+                    "question": "How is the average calculated?",
+                    "answer": "The average is calculated by dividing the sum of the elements of the array by the number of numbers which is equal to the length of the array."
+                },
+                {
+                    "questionNum": "2",
+                    "question": "What is the value of the sum of numbers?",
+                    "answer": "The value of the sum of numbers is 32."
+                },
+                {
+                    "questionNum": "3",
+                    "question": "What is the length of the array?",
+                    "answer": "The length of the array numArray is 5."
+                },
+                {
+                    "questionNum": "4",
+                    "question": "What is the value of the average?",
+                    "answer": "The value of the average is 8.00."
+                }
+            ],
+            "statements": [
+                {
+                    "statementNum": 1,
+                    "start": 12,
+                    "end": 12,
+                    "statementComment": "The variable numArray.length provides the number of elements or size of the array.",
+                    "questions": [
+                        {
+                            "questionNum": 1,
+                            "question": "How can the number of elements or size of the array be obtained?",
+                            "answer": "The variable numArray.length provides the number of elements or size of the array."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

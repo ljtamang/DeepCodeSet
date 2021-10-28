@@ -1,0 +1,181 @@
+{
+    "author": "Lasang Tamang, refined by Dr Vasile Rus",
+    "topics": "Classes and Objects",
+    "subtopics": "Object intilazation, getter and setter method, accessing methods",
+    "goalDescription": "A program to translate a point.",
+    "source": "http://pawscomp2.sis.pitt.edu/pcex/pcex_v2/index.html?lang=JAVA&set=objects.classes.point&v=201803162257",
+    "input": "N/A",
+    "output": "New coordinates is (18, 8)",
+    "code": "public class Point {\n\n    private int x;\n    private int y;\n    public void setX(int newX) { this.x = newX; }\n    public int getX() { return x; }\n    public void setY(int newY) { this.y = newY; }\n    public int getY() { return y; }\n\n    public void translate(int dx, int dy) {\n        x += dx;\n        y += dy;\n    }\n\n    public static void main(String[] args) {\n\n        Point point = new Point();\n        point.setX(7);\n        point.setY(2);\n\n        point.translate(11, 6);\n        System.out.println(\"New coordinates is (\" + point.getX() + \", \" + point.getY() + \")\");\n\n    }\n}\n",
+    "blocks": [
+        {
+            "blockNum": 1,
+            "start": 3,
+            "end": 8,
+            "domainModelQuestion": "What is the goal of the block of code (line 3-line 8)?",
+            "logicalStep": "It declares variables to represent a point in a 2-dimensional space and methods to access them.",
+            "programModelQuestion": "Can you explain in detail how the goal of the current block of code (line 3-line 8) is actually implemented?",
+            "logicalStepDetail": "Variables x and y represent the coordinates of a point in a 2-dimensional space. The getter methods get the coordinates of the point. The setter method sets the coordinates of the point.",
+            "questions": [
+                {
+                    "questionNum": "1",
+                    "question": "What do variables x and y represent and what is their type?",
+                    "answer": "Variables x and y represent the coordinates of a point in a 2-dimensional space and are of type private integer."
+                },
+                {
+                    "questionNum": "2",
+                    "question": "What does a getter method do?",
+                    "answer": "The getter methods get the coordinates of the point."
+                },
+                {
+                    "questionNum": "3",
+                    "question": "What does a setter method do?",
+                    "answer": "The setter method sets the coordinates of the point."
+                }
+            ],
+            "statements": [
+                {
+                    "statementNum": 1,
+                    "start": 3,
+                    "end": 3,
+                    "statementComment": "The x and y coordinates are declared private to make them accessible only to their class.",
+                    "questions": [
+                        {
+                            "questionNum": 1,
+                            "question": "Why are coordinates x and y declared as private?",
+                            "answer": "The x and y coordinates are declared private to make them accessible only to their class."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockNum": 2,
+            "start": 10,
+            "end": 13,
+            "domainModelQuestion": "What is the goal of the block of code (line 10-line 13)?",
+            "logicalStep": "It defines a method to translate a point.",
+            "programModelQuestion": "Can you explain in detail how the goal of the current block of code (line 10-line 13) is actually implemented?",
+            "logicalStepDetail": "A method translate is defined with input parameters dx and dy to shift the x and y coordinates of a point. To translate a point, the method adds offset values dx and dy to x and y, respectively.",
+            "questions": [
+                {
+                    "questionNum": "1",
+                    "question": "How is a method translate defined?",
+                    "answer": "A method translate is defined with input parameters dx and dy to shift the x and y coordinates of a point."
+                },
+                {
+                    "questionNum": "2",
+                    "question": "How exactly is a point translated?",
+                    "answer": "To translate a point, the method adds offset value dx and dy to x and y respectively."
+                },
+                {
+                    "questionNum": "3",
+                    "question": "What do the input parameters dx and dy represent?",
+                    "answer": "The input parameter dx and dy indicates the offset along the x and y coordinates, respectively."
+                }
+            ],
+            "statements": [
+                {
+                    "statementNum": 1,
+                    "start": 10,
+                    "end": 10,
+                    "statementComment": "The input parameter dx and dy indicates the offset along the x and y coordinates, respectively.",
+                    "questions": [
+                        {
+                            "questionNum": 1,
+                            "question": "How is a method translate defined?",
+                            "answer": "A method translate is defined with input parameters dx and dy to shift the x and y coordinates of a point."
+                        },
+                        {
+                            "questionNum": 2,
+                            "question": "How exactly is a point translated?",
+                            "answer": "To translate a point, the method adds offset value dx and dy to x and y respectively."
+                        },
+                        {
+                            "questionNum": 3,
+                            "question": "What do the input parameters dx and dy represent?",
+                            "answer": "The input parameter dx and dy indicates the offset along the x and y coordinates, respectively."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockNum": 3,
+            "start": 17,
+            "end": 19,
+            "domainModelQuestion": "What is the goal of the block of code (line 17-line 19)?",
+            "logicalStep": "It creates an object to represent a point.",
+            "programModelQuestion": "Can you explain in detail how the goal of the current block of code (line 17-line 19) is actually implemented?",
+            "logicalStepDetail": "To represent a point, an object of class Point is declared and initialized to a newly created object by calling new(). The value of the x coordinate is initialized to 7. The value of the y coordinate is initialized to 2.",
+            "questions": [
+                {
+                    "questionNum": "1",
+                    "question": "How is a Point object declared and initialized?",
+                    "answer": "To represent a point, an object of class Point is declared and initialized to a newly created object by calling new()."
+                },
+                {
+                    "questionNum": "2",
+                    "question": "What value is the x coordinate initialized to?",
+                    "answer": "The value of x coordinate is initialized to 7."
+                },
+                {
+                    "questionNum": "3",
+                    "question": "What value is the coordinate initialized to?",
+                    "answer": "The value of the y coordinate is initialized to 2."
+                }
+            ],
+            "statements": [
+                {
+                    "statementNum": 1,
+                    "start": 17,
+                    "end": 17,
+                    "statementComment": "A new point is created by calling the new operator on the Point class.",
+                    "questions": [
+                        {
+                            "questionNum": 1,
+                            "question": "Why is the new operator called in this line of code?",
+                            "answer": "A new point is created by calling the new operator on the Point class."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockNum": 4,
+            "start": 21,
+            "end": 22,
+            "domainModelQuestion": "What is the goal of the block of code (line 21-line 22)?",
+            "logicalStep": "It translates a point and prints a new set of coordinates for a given Point object.",
+            "programModelQuestion": "Can you explain in detail how the goal of the current block of code (line 21-line 22) is actually implemented?",
+            "logicalStepDetail": "The method translate is called to move the point in the 2-dimensional space. After calling the translate method, the values of x and y are 18 and 8, respectively.",
+            "questions": [
+                {
+                    "questionNum": "1",
+                    "question": "Why is the method translate called?",
+                    "answer": "The method translate is called to move a point in a 2-dimensional space."
+                },
+                {
+                    "questionNum": "2",
+                    "question": "What is the value of x and y coordinates after calling the translate method?",
+                    "answer": "After calling the translate method, the value of x and y coordinates are 18 and 8, respectively."
+                }
+            ],
+            "statements": [
+                {
+                    "statementNum": 1,
+                    "start": 21,
+                    "end": 21,
+                    "statementComment": "The parameter values 11 and 6 represent the offsets along the x and y coordinates.",
+                    "questions": [
+                        {
+                            "questionNum": 1,
+                            "question": "What do parameters 11 and 6 represent?",
+                            "answer": "The parameter values 11 and 6 represent desired offsets along the x and y coordinates."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "author": "Vasile Rus, refined by Lasang Tamang",
+    "topics": "two-dimensional arrays",
+    "subtopics": "two-dimensional arrays, accessing value of two-dimensional arrays",
+    "goalDescription": "Generate and print a 5 x 5 Bingo board with random numbers from 1 to 75.",
+    "source": "N/A",
+    "input": "N/A",
+    "output": "non-deterministic",
+    "code": "import java.util.Random;\npublic class BingoBoard {\n    public static void main(String[] args) {\n\n        int[][] bingoBoard = new int[5][5];\n        Random rand = new Random();\n\n        for (int i = 0; i < 5; i++) {\n            for (int j = 0; j < 5; j++) {\n                bingoBoard[i][j] = 1 + rand.nextInt(75);\n            }\n        }\n\n        for (int i = 0; i < 5; i++) {\n            for (int j = 0; j < 5; j++) {\n                System.out.print(bingoBoard[i][j] + \" \");\n            }\n            System.out.println(\"\");\n        }\n\n    }\n}\n",
+    "blocks": [
+        {
+            "blockNum": 1,
+            "start": 5,
+            "end": 6,
+            "domainModelQuestion": "What is the goal of the block of code (line 5-line 6)?",
+            "logicalStep": "It declares variables required to represent computationally the Bingo board and to generate random numbers.",
+            "programModelQuestion": "Can you explain in detail how the goal of the current block of code (line 5-line 6) is actually implemented?",
+            "logicalStepDetail": "A two-dimensional array of integers is declared to represent the 5 x 5 Bingo board.  Also, an instance of the class Random is declared to help with generating random integers.",
+            "questions": [
+                {
+                    "questionNum": "1",
+                    "question": "What variables are declared and what is their type?",
+                    "answer": "A two-dimensional array of integers called bingoBoard and a random variable called rand which is an instance of the class Random."
+                },
+                {
+                    "questionNum": "2",
+                    "question": "What is the size of the two-dimensional array bingoBoard?",
+                    "answer": "The size of the array is 5 x 5 (5 rows and 5 columns) or 25 cells."
+                }
+            ],
+            "statements": []
+        },
+        {
+            "blockNum": 2,
+            "start": 8,
+            "end": 12,
+            "domainModelQuestion": "What is the goal of the block of code (line 8-line 12)?",
+            "logicalStep": "It generates 25 random numbers in the range of 1 to 75 and populates the Bingo board.",
+            "programModelQuestion": "Can you explain in detail how the goal of the current block of code (line 8-line 12) is actually implemented?",
+            "logicalStepDetail": "Two for loops are used to scan all the cells or elements on a Bingo board. The outer loop accounts for the rows of the bingo board. The inner loop accounts for all the cells in one row of the bingo board. A random number is generated and stored in each scanned cell of the Bingo board.",
+            "questions": [
+                {
+                    "questionNum": "1",
+                    "question": "How are the cells or elements of the Bingo board scanned?",
+                    "answer": "Two for loops are used to scan all the cells on a Bingo board."
+                },
+                {
+                    "questionNum": "2",
+                    "question": "What does the outer loop account for?",
+                    "answer": "The outer loop accounts for the rows of the Bingo board."
+                },
+                {
+                    "questionNum": "3",
+                    "question": "What does the inner loop account for?",
+                    "answer": "The inner loop accounts for all the cells in one row of the Bingo board."
+                },
+                {
+                    "questionNum": "4",
+                    "question": "How are the elements or cells of the Bingo board being populated with numbers?",
+                    "answer": "A random number is generated and stored in each scanned cell of the Bingo board."
+                }
+            ],
+            "statements": [
+                {
+                    "statementNum": 1,
+                    "start": 10,
+                    "end": 10,
+                    "statementComment": "bingoBoard[i][j] represents the element in ith row and jth column.",
+                    "questions": [
+                        {
+                            "questionNum": 1,
+                            "question": "Which elements or cell of the Bingo board is represented by the following construct, bingoBoard[i][j]?",
+                            "answer": "bingoBoard[i][j] represents the element in ith row and jth column."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockNum": 3,
+            "start": 14,
+            "end": 19,
+            "domainModelQuestion": "What is the goal of the block of code (line 8-line 12)?",
+            "logicalStep": "It prints the Bingo board.",
+            "programModelQuestion": "Can you explain in detail how the goal of the current block of code (line 8-line 12) is actually implemented?",
+            "logicalStepDetail": "Two for loops are used to scan each cell of the Bingo board from the top left corner to the bottom right corner. Then, it prints the value in each cell of the Bingo board.",
+            "questions": [
+                {
+                    "questionNum": "1",
+                    "question": "How exactly are the elements of the Bingo board scanned?",
+                    "answer": "Two for loops are used to scan each cell of the Bingo board from the top left corner to the bottom right corner."
+                },
+                {
+                    "questionNum": "2",
+                    "question": "What does the program print?",
+                    "answer": "It prints the value in each cell of the Bingo board."
+                }
+            ],
+            "statements": []
+        }
+    ]
+}

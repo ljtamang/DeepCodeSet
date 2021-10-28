@@ -1,0 +1,103 @@
+{
+    "author": "Vasile Rus, refined by Lasang Tamang",
+    "topics": "nested loops",
+    "subtopics": "two nested for loop",
+    "goalDescription": "Print a grid of stars.",
+    "source": "https://www.cs.umd.edu/~clin/MoreJava/ControlFlow/nested-loops.html",
+    "input": "N/A",
+    "output": "*****\n*****\n*****",
+    "code": "public class GridOfStars {\n    public static void main(String[] args) {\n\n        int height = 3, width = 5;\n\n        for (int row = 0; row < height; row++) {\n            for (int col = 0; col < width; col++) {\n                System.out.print(\"*\");\n            }\n            System.out.println(\"\");\n        }\n\n    }\n}\n",
+    "blocks": [
+        {
+            "blockNum": 1,
+            "start": 4,
+            "end": 4,
+            "domainModelQuestion": "What is the goal of the block of code (line 4)?",
+            "logicalStep": "It specifies the size of the grid of stars in terms of height and width measured in the number of stars.",
+            "programModelQuestion": "Can you explain in detail how the goal of the current block of code (line 4) is actually implemented?",
+            "logicalStepDetail": "It declares two integer variables, height and width, that indicates the size of the grid. The value of the variable height is initialized to 3. The value of the variable width is initialized to 5.",
+            "questions": [
+                {
+                    "questionNum": "1",
+                    "question": "How exactly is the size of the grid represented computationally?",
+                    "answer": "It declares two integer variables, height and width, that indicates the size of the grid."
+                },
+                {
+                    "questionNum": "2",
+                    "question": "What value is the variable height initialized to?",
+                    "answer": "The value of the variable height is initialized to 3."
+                },
+                {
+                    "questionNum": "3",
+                    "question": "What value is the variable width initialized to?",
+                    "answer": "The value of the variable height is initialized to 5."
+                }
+            ],
+            "statements": []
+        },
+        {
+            "blockNum": 2,
+            "start": 6,
+            "end": 11,
+            "domainModelQuestion": "What is the goal of the block of code (line 6-line 11)?",
+            "logicalStep": "It scans the grid and prints a star for each cell of the grid.",
+            "programModelQuestion": "Can you explain in detail how the goal of the current block of code (line 6-line 11) is actually implemented?",
+            "logicalStepDetail": "Two for loops are used to scan the grid because the grid is two dimensional. The first or outer for loop is used to scan all rows of the grid using the loop variable row. The second or inner for loop scans all the columns in the current row using the loop variable col.",
+            "questions": [
+                {
+                    "questionNum": "1",
+                    "question": "How many loops are used to scan the grid and why?",
+                    "answer": "Two for loops are used to scan the grid because the grid is two dimensional."
+                },
+                {
+                    "questionNum": "2",
+                    "question": "What is the first or outer for loop used for?",
+                    "answer": "The first or outer for loop scans all rows of the grid."
+                },
+                {
+                    "questionNum": "3",
+                    "question": "What does the second or inner for loop do?",
+                    "answer": "The second or inner for loop scans all the columns in the current row."
+                }
+            ],
+            "statements": [
+                {
+                    "statementNum": 1,
+                    "start": 6,
+                    "end": 6,
+                    "statementComment": "This first for loop is called the outer loop. The outer loop runs for a number of iterations specified by height.",
+                    "questions": [
+                        {
+                            "questionNum": 1,
+                            "question": "What is the first for loop called?",
+                            "answer": "This first for loop is called the outer loop."
+                        },
+                        {
+                            "questionNum": 2,
+                            "question": "How many times do the outer loop run?",
+                            "answer": "The outer loop runs for a number of iterations specified by height."
+                        }
+                    ]
+                },
+                {
+                    "statementNum": 2,
+                    "start": 7,
+                    "end": 7,
+                    "statementComment": "This second for loop is known as the inner or nested loop. The inner loop runs for a number of iterations given by variable width.",
+                    "questions": [
+                        {
+                            "questionNum": 1,
+                            "question": "What is the second for loop called?",
+                            "answer": "This second for loop is known as the inner or nested loop."
+                        },
+                        {
+                            "questionNum": 2,
+                            "question": "How many times does the inner loop run?",
+                            "answer": "The inner loop runs for a number of iterations given by variable width."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

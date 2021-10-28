@@ -1,0 +1,112 @@
+{
+    "author": "Lasang Tamang, refined by Dr Vasile Rus",
+    "topic": "Methods",
+    "subtopic": "Define method, calling method",
+    "goalDescription": "Calculate the volume of the cube.",
+    "source": "N/A",
+    "input": "N/A",
+    "output": "27",
+    "code": "public class Cube {\n\n    static int vol(int x) {\n        return x * x * x;\n    }\n\n    public static void main(String args[]) {\n\n        int sideLength = 3;\n        int vol;\n\n        vol = Cube.vol(sideLength);\n        System.out.println(vol);\n\n    }\n}\n",
+    "blocks": [
+        {
+            "blockNum": 1,
+            "start": 3,
+            "end": 5,
+            "domainModelQuestion": "What is the goal of the block of code (line 3-line 5)?",
+            "logicalStep": "It defines a method vol that calculates the volume of a cube whose size is passed as an input parameter.",
+            "programModelQuestion": "Can you explain in detail how the goal of the current block of code (line 3-line 5) is actually implemented?",
+            "logicalStepDetail": "A static method vol is defined to compute and return the volume of a cube whose size is passed as an input parameter. The method vol is defined as static such that it belongs to the class which means it can be called without instantiating a specific instance or object of the class. The parameter x of the method vol represents the side of the cube. The volume is computed using the mathematical formula which indicates to multiply the side of the cube, which is x, 3 times.",
+            "questions": [
+                {
+                    "questionNum": "1",
+                    "question": "Why is the method vol defined?",
+                    "answer": "A static method vol is defined to compute and return the volume of a cube whose size is passed as an input parameter."
+                },
+                {
+                    "questionNum": "2",
+                    "question": "Why is the method vol defined as static?",
+                    "answer": "The method vol is defined as static such that it belongs to the class which means it can be called without instantiating a specific instance or object of the class."
+                },
+                {
+                    "questionNum": "3",
+                    "question": "What does the input parameter x of the vol method represent?",
+                    "answer": "The parameter x of vol method represents the side of the cube."
+                },
+                {
+                    "questionNum": "4",
+                    "question": "How is the volume of the cube computed?",
+                    "answer": "The volume is computed using the mathematical formula which indicates to multiply the side of the cube, which is x, 3 times."
+                }
+            ],
+            "statements": [
+                {
+                    "statementNum": 1,
+                    "start": 3,
+                    "end": 3,
+                    "statementComment": "The keyword static means there is no need for a class object to call the method.",
+                    "questions": [
+                        {
+                            "questionNum": 1,
+                            "question": "What does keyword static mean for this method?",
+                            "answer": "The keyword static means there is no need for a class object to call the method."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockNum": 2,
+            "start": 9,
+            "end": 10,
+            "domainModelQuestion": "What is the goal of the block of code (line 9-line 10)?",
+            "logicalStep": "It declares variables to store the length and volume of a cube.",
+            "programModelQuestion": "Can you explain in detail how the goal of the current block of code (line 9-line 10) is actually implemented?",
+            "logicalStepDetail": "A variable sideLength is declared to represent the length of a side of a cube. The value of the variable sideLength is initialized to 3. The variable vol is declared to store the volume of the cube.",
+            "questions": [
+                {
+                    "questionNum": "1",
+                    "question": "Why is variable sideLength declared and what is its type?",
+                    "answer": "A variable sideLength of type integer is declared to represent the length of a side of the cube."
+                },
+                {
+                    "questionNum": "2",
+                    "question": "What value is the variable sideLength initialized to?",
+                    "answer": "The value of the variable sideLength is initialized to 3."
+                },
+                {
+                    "questionNum": "3",
+                    "question": "Why is variable vol declared and what is its type?",
+                    "answer": "The variable vol of type integer is declared to store the volume of the cube."
+                }
+            ],
+            "statements": []
+        },
+        {
+            "blockNum": 3,
+            "start": 12,
+            "end": 13,
+            "domainModelQuestion": "What is the goal of the block of code (line 12-line 13)?",
+            "logicalStep": "It calls a method vol and prints the returned value.",
+            "programModelQuestion": "Can you explain in detail how the goal of the current block of code (line 12-line 13) is actually implemented?",
+            "logicalStepDetail": "To calculate the volume of the cube, the program calls a method vol with parameter sideLength whose value is 3. The method vol returns the value of 27 which is assigned to the variable vol. Therefore, the program prints the volume of the cube which is 27.",
+            "questions": [
+                {
+                    "questionNum": "1",
+                    "question": "What does the program do to calculate the volume of the cube?",
+                    "answer": "To calculate the volume of the cube, the program calls a method vol with parameter sideLength whose value is 3."
+                },
+                {
+                    "questionNum": "2",
+                    "question": "What value does method vol return?",
+                    "answer": "The method vol returns the value 27."
+                },
+                {
+                    "questionNum": "3",
+                    "question": "What does the program print?",
+                    "answer": "The program prints the volume of the cube which is 27."
+                }
+            ],
+            "statements": []
+        }
+    ]
+}
