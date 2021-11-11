@@ -35,7 +35,7 @@ public class AreaOfCircle {
          * domain_model_question: What is the goal of the following block of code?
          * logical_step_2: It calculates the area of the circle and prints its value.
          * program_model_question: Can you explain in detail how the goal of the current block of code is actually implemented?
-         * logical_step_details: The expression for computing the area of a circle (area = radius*radius*PI) is used to calculate the area of the circle. The area of the circle is 105.68. The program uses the statement printf to print the value of the radius and area of the circle at the standard output device.
+         * logical_step_details: The expression for computing the area of a circle (area = radius*radius*PI) is used to calculate the area of the circle. The calculated value of the area is 105.68. The program uses the statement printf to print the value of the radius and area of the circle at the standard output device.
          * question_1: How is the area of the circle computed?
          * answer_1: The well-known mathematical expression for the area of the circle (area = radius * radius * PI) is used to calculate the area of the circle.
          * question_2: What is the calculated value of the area?
