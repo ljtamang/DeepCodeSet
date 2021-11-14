@@ -12,13 +12,13 @@ public class SumOfNaturalNumber {
 
         /**
          * domain_model_question: What is the goal of the following block of code?
-         * logical_step_1: It declares variables to represent a sum and a limit up to which we want to add numbers to compute their sum.
+         * logical_step_1: It declares variables to represent a sum and a number up to which the sum is computed.
          * program_model_question: Can you explain in detail how the goal of the current block of code is actually implemented?
-         * logical_step_details: A variable sum of integer type is declared to hold the sum of natural numbers. Also, another variable n of integer type is declared to represent the limit up to which we want to add numbers to find the sum.
+         * logical_step_details: A variable sum of integer type is declared to hold the sum of natural numbers. Also, the variable n of integer type is declared to represent the number up to which the sum is computed.
          * question_1: Why is variable sum declared and what is its type?
          * answer_1:  A variable sum of integer type is declared to hold the sum of natural numbers.
          * question_2: What does the variable n represent and what is its type?
-         * answer_2: Variable n represents the limit up to which we want to add numbers to find their sum.
+         * answer_2: The variable n of integer type is declared to represent the number up to which the sum is computed.
          */
         int sum = 0;
         int n = 10;
