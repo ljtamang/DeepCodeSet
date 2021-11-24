@@ -15,10 +15,10 @@ public class AverageOfNumbers {
          * logical_step_1: It declares variables needed to store a set of numbers, their sum, and their average.
          * program_model_question: Can you explain in detail how the goal of the current block of code is actually implemented?
          * logical_step_details: The array variable numArray is declared to store the numbers whose average will be computed. The variable sum is declared to represent the sum of the numbers. The value of the sum is initialized to 0. Also, the variable average of double type is declared to hold the average value of the numbers.
-         * question_1: Why is the array variable numArray declared and what is its type?
-         * answer_1: The array variable numArray of type double is declared to store the numbers whose average will be computed. 
-         * question_2: Why is a variable sum declared and what is its type?
-         * answer_2: The variable sum of type double is declared to represent the sum of the numbers.
+         * question_1: Why is the array variable numArray declared?
+         * answer_1: The array variable numArray is declared to store the numbers whose average will be computed. 
+         * question_2: Why is a variable sum declared?
+         * answer_2: The variable sum is declared to represent the sum of the numbers.
          * question_3: What value is sum initialized to?
          * answer_3: The variable sum is initialized to 0.
          * question_4: Why is variable average declared and what is its type?
