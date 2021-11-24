@@ -39,12 +39,12 @@ public class Cube {
          * logical_step_2: It declares variables to store the length and volume of a cube. 
          * program_model_question: Can you explain in detail how the goal of the current block of code is actually implemented?
          * logical_step_details: A variable sideLength is declared to represent the length of a side of a cube. The value of the variable sideLength is initialized to 3. The variable vol is declared to store the volume of the cube.
-         * question_1: Why is variable sideLength declared and what is its type?
-         * answer_1: A variable sideLength of type integer is declared to represent the length of a side of the cube. 
+         * question_1: Why is variable sideLength declared?
+         * answer_1: A variable sideLength is declared to represent the length of a side of a cube.
          * question_2: What value is the variable sideLength initialized to?
          * answer_2: The value of the variable sideLength is initialized to 3.
-         * question_3: Why is variable vol declared and what is its type?
-         * answer_3: The variable vol of type integer is declared to store the volume of the cube.
+         * question_3: Why is variable vol declared?
+         * answer_3: The variable vol is declared to store the volume of the cube.
          */
         int sideLength = 3;
         int vol;
