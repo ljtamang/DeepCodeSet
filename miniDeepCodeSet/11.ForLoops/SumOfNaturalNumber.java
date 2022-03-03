@@ -12,7 +12,7 @@ public class SumOfNaturalNumber {
 
         /**
          * domain_model_question: What is the goal of the following block of code?
-         * logical_step_1: It declares variables to represent a sum and a number up to which the sum is computed.
+         * logical_step_1: The code declares variables to represent a sum and a number up to which the sum is computed.
          * program_model_question: Can you explain in detail how the goal of the current block of code is actually implemented?
          * logical_step_details: A variable sum of integer type is declared to hold the sum of natural numbers. Also, the variable n of integer type is declared to represent the number up to which the sum is computed.
          * question_1: Why is variable sum declared and what is its type?
@@ -25,7 +25,7 @@ public class SumOfNaturalNumber {
 
         /**
          * domain_model_question: What is the goal of the following block of code?
-         * logical_step_2: It finds the sum of natural numbers from 1 to 10 and prints it.
+         * logical_step_2: The code finds the sum of natural numbers from 1 to 10 and prints it.
          * program_model_question: Can you explain in detail how the goal of the current block of code is actually implemented?
          * logical_step_details: The value of the variable sum is first initialized to 0. Then, a for loop is used to iterate over all integers from 1 to 10. At each iteration, the current integer i is added to the sum. When the for loop ends, the value of the sum is 55. Finally, the program prints "sum = 55".
          * question_1: What value is the variable sum initialized to?
